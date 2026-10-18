@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NYC 311 Pulse</title>
+<meta name="description" content="What New Yorkers reported to 311 yesterday, what was unusual, and how fast city agencies close requests. Refreshed daily from NYC Open Data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root {
+  --bg: #ffffff; --ink: #111418; --muted: #5d6470; --line: #e3e5e9; --soft: #f3f4f6; --band: #111418; --band-ink: #ffffff;
+  --up: #d1361f; --down: #1f6fd1; --ok: #1d8a4e; --focus: #1f6fd1;
+  --bx: #e8743b; --bk: #2e7ad1; --mn: #7b5cc4; --qn: #19a37a; --si: #c9a227; --un: #9aa1ab;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1014; --ink: #eef0f3; --muted: #9aa2ae; --line: #252a32; --soft: #171b21; --band: #eef0f3; --band-ink: #0d1014;
+    --up: #ff6b52; --down: #5ea2ff; --ok: #3cc47c; --focus: #5ea2ff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1014; --ink: #eef0f3; --muted: #9aa2ae; --line: #252a32; --soft: #171b21; --band: #eef0f3; --band-ink: #0d1014;
+  --up: #ff6b52; --down: #5ea2ff; --ok: #3cc47c; --focus: #5ea2ff; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 Archivo, system-ui, -apple-system, "Segoe UI", sans-serif; padding: 0 16px 64px; }
+.wrap { max-width: 1120px; margin: 0 auto; }
+a { color: inherit; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+
+.band { background: var(--band); color: var(--band-ink); margin: 0 -16px; padding: 14px 16px; }
+.band .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+.band .brand { margin: 0; font-weight: 800; font-stretch: 112%; font-size: 1.15rem; letter-spacing: 0.01em; }
+.band span { font-size: 14px; opacity: .8; }
+
+.hero { padding-block: 40px 24px; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 32px; align-items: end; }
+@media (max-width: 820px) { .hero { grid-template-columns: minmax(0, 1fr); } }
+.day { font-size: 15px; color: var(--muted); font-weight: 600; }
+.count { font-size: clamp(4rem, 13vw, 8.5rem); line-height: .9; font-weight: 800; font-stretch: 80%; letter-spacing: -0.02em; margin: 8px 0 10px; }
+.vs { font-size: 1.2rem; margin: 0; max-width: 34ch; }
+.vs b { font-weight: 700; }
+.boros { display: grid; gap: 8px; }
+.boro { display: grid; grid-template-columns: 116px minmax(0, 1fr) 64px; gap: 10px; align-items: center; font-size: 14.5px; }
+.boro .t { height: 16px; background: var(--soft); border-radius: 2px; overflow: hidden; }
+.boro .t i { display: block; height: 100%; }
+
+section { margin-top: 52px; }
+h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 800; font-stretch: 90%; margin: 0 0 6px; letter-spacing: -0.01em; text-wrap: balance; }
+.lead { margin: 0 0 18px; color: var(--muted); max-width: 70ch; }
+
+.unusual { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.u { border-top: 4px solid var(--ink); padding: 12px 2px 4px; display: grid; gap: 4px; min-width: 0; }
+.u.up { border-color: var(--up); } .u.down { border-color: var(--down); }
+.u h3 { margin: 0; font-size: 1.02rem; font-weight: 700; line-height: 1.25; }
+.u .big { font-size: 1.9rem; font-weight: 800; font-stretch: 85%; line-height: 1.05; }
+.u .big small { font-size: .95rem; font-weight: 600; color: var(--muted); font-stretch: 100%; }
+.u .chg { font-weight: 700; font-size: 14px; }
+.u.up .chg { color: var(--up); } .u.down .chg { color: var(--down); }
+.u svg { width: 100%; height: 44px; display: block; }
+.u svg rect { fill: var(--line); } .u svg rect.sw { fill: var(--muted); } .u svg rect.today { fill: var(--ink); }
+.u.up svg rect.today { fill: var(--up); } .u.down svg rect.today { fill: var(--down); }
+.u .note { font-size: 12.5px; color: var(--muted); }
+
+#map { height: 520px; border: 1px solid var(--line); border-radius: 6px; background: var(--soft); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13.5px; color: var(--muted); margin-top: 10px; }
+.legend button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.legend button[aria-pressed="false"] { opacity: .35; }
+.legend button:focus-visible { outline: 2px solid var(--focus); }
+.legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+
+svg.chart { width: 100%; height: auto; display: block; overflow: visible; }
+svg.chart text { fill: var(--muted); font: 12px Archivo, system-ui, sans-serif; }
+svg.chart .grid line { stroke: var(--line); }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+@media (max-width: 860px) { .two { grid-template-columns: minmax(0, 1fr); } }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+th { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+td.r, th.r { text-align: right; }
+.season td.c { text-align: center; font-size: 12px; padding: 6px 2px; min-width: 34px; }
+.speed { display: grid; gap: 10px; }
+.speed-row { display: grid; grid-template-columns: 76px minmax(0, 1fr) 70px; gap: 10px; align-items: center; font-size: 14px; }
+.speed-row .t { position: relative; height: 18px; background: var(--soft); border-radius: 2px; overflow: hidden; }
+.speed-row .t i { position: absolute; top: 0; bottom: 0; left: 0; }
+.speed-row .t i.d7 { background: color-mix(in oklab, var(--ok) 28%, var(--soft)); }
+.speed-row .t i.d3 { background: color-mix(in oklab, var(--ok) 60%, var(--soft)); }
+.speed-row .t i.d1 { background: var(--ok); }
+.method { color: var(--muted); font-size: 14.5px; columns: 2 300px; column-gap: 32px; }
+.method p { margin: 0 0 12px; break-inside: avoid; }
+footer { margin-top: 44px; border-top: 1px solid var(--line); padding-top: 14px; color: var(--muted); font-size: 13.5px; display: grid; gap: 4px; }
+footer p { margin: 0; }
+</style>
+</head>
+<body>
+<div class="band"><div class="wrap"><h1 class="brand">NYC 311 Pulse</h1><span id="updated">Loading…</span></div></div>
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <div class="day" id="day"></div>
+      <div class="count num" id="count">…</div>
+      <p class="vs" id="vs"></p>
+    </div>
+    <div class="boros" id="boros" aria-label="Requests by borough"></div>
+  </div>
+
+  <main>
+    <section aria-labelledby="u-h">
+      <h2 id="u-h">What was unusual</h2>
+      <p class="lead">Complaint types furthest from their normal level for this day of the week. Each bar is a day over the last eight weeks; darker bars are the same weekday, the last bar is the day itself.</p>
+      <div class="unusual" id="unusual"></div>
+    </section>
+
+    <section aria-labelledby="m-h">
+      <h2 id="m-h">Where the calls came from</h2>
+      <p class="lead" id="map-lead">Every request with a location, colored by complaint type. Tap a type to hide or show it.</p>
+      <div id="map" role="img" aria-label="Map of 311 requests"></div>
+      <div class="legend" id="map-legend"></div>
+    </section>
+
+    <section aria-labelledby="t-h">
+      <h2 id="t-h">Week by week</h2>
+      <p class="lead">Requests per week by borough. Summer noise and winter heating complaints set the city's rhythm.</p>
+      <div id="trend"></div>
+      <div class="legend" id="trend-legend"></div>
+    </section>
+
+    <section aria-labelledby="c-h">
+      <div class="two">
+        <div>
+          <h2 id="c-h">How fast agencies close requests</h2>
+          <p class="lead" id="closure-lead">Share of requests closed within a day, three days and a week, for requests opened in the last four weeks of complete data.</p>
+          <div class="speed" id="agencies"></div>
+          <div class="legend"><span><i style="background:var(--ok)"></i>1 day</span><span><i style="background:color-mix(in oklab, var(--ok) 60%, var(--soft))"></i>3 days</span><span><i style="background:color-mix(in oklab, var(--ok) 28%, var(--soft))"></i>7 days</span></div>
+        </div>
+        <div>
+          <h2 id="ty-h">By complaint type</h2>
+          <p class="lead">Median time to close, the busiest types first.</p>
+          <div class="scroll"><table><thead><tr><th>Type</th><th class="r">Requests</th><th class="r">Median</th><th class="r">In 3 days</th></tr></thead><tbody id="types"></tbody></table></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s-h">
+      <h2 id="s-h">The 311 calendar</h2>
+      <p class="lead">Each complaint type's volume by month relative to its own yearly average (1.0 = average month).</p>
+      <div class="scroll"><table class="season"><thead id="season-head"></thead><tbody id="season"></tbody></table></div>
+    </section>
+
+    <section aria-labelledby="h-h">
+      <h2 id="h-h">How this works</h2>
+      <div class="method">
+        <p><b>Data.</b> NYC Open Data's 311 Service Requests (2020 to present), queried every morning through the Socrata API. Daily counts per complaint type and borough are aggregated on the server, so only small tables travel.</p>
+        <p><b>Late arrivals.</b> Requests keep arriving for days, so the last ten days are re-pulled on every run, and a day that is still far below its usual volume is not shown as the headline.</p>
+        <p><b>Unusual.</b> A robust z-score against the same weekday over the previous eight weeks (median and median absolute deviation). Types with fewer than 15 requests on a typical day are left out.</p>
+        <p><b>Closure.</b> Measured on requests at least eight days old, so "within a week" is final. Closed dates earlier than the created date, a known data artefact, are treated as unknown. "Closed" means the agency closed the request, not necessarily that the problem was fixed.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="coverage"></p>
+    <p><a href="https://github.com/AshokReddy010/nyc-311-pulse">Code and daily data files on GitHub</a> · Data: NYC Open Data, 311 Service Requests · Map © OpenStreetMap contributors</p>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const BASE = new URLSearchParams(location.search).get("base") || "https://raw.githubusercontent.com/AshokReddy010/nyc-311-pulse/main/site/data/";
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const BORO = { BROOKLYN: ["Brooklyn", "--bk"], QUEENS: ["Queens", "--qn"], MANHATTAN: ["Manhattan", "--mn"], BRONX: ["Bronx", "--bx"], "STATEN ISLAND": ["Staten Island", "--si"], UNSPECIFIED: ["Unspecified", "--un"] };
+const TYPE_COLORS = ["#e8743b", "#2e7ad1", "#7b5cc4", "#19a37a", "#c9a227", "#d1361f", "#3aa6c9", "#b2569e", "#6c8a2b", "#9aa1ab"];
+const nice = (t) => t.replace(/\b([A-Z]{2,})\b/g, (w) => w.length <= 3 ? w : w[0] + w.slice(1).toLowerCase()).replace("Heat/hot Water", "Heat/Hot Water");
+const fmtDay = (iso, opt) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", opt || { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+function hero(p) {
+  $("#day").textContent = fmtDay(p.day);
+  $("#count").textContent = p.total.toLocaleString();
+  const d = p.total / p.typical - 1;
+  const word = Math.abs(d) < 0.05 ? "about as many as" : d > 0 ? `${Math.round(d * 100)}% more than` : `${Math.round(-d * 100)}% fewer than`;
+  $("#vs").innerHTML = `requests to 311, <b>${word}</b> a typical ${esc(p.weekday)} (${p.typical.toLocaleString()}).`;
+  const rows = Object.entries(p.boroughs).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(...rows.map((r) => r[1]));
+  $("#boros").innerHTML = rows.map(([b, n]) => `<div class="boro"><span>${esc((BORO[b] || [b])[0])}</span><div class="t"><i style="width:${n / max * 100}%;background:var(${(BORO[b] || [0, "--un"])[1]})"></i></div><span class="num" style="text-align:right">${n.toLocaleString()}</span></div>`).join("");
+}
+
+function unusual(list, day) {
+  const wd = new Date(day + "T12:00:00").getDay();
+  $("#unusual").innerHTML = list.slice(0, 9).map((u) => {
+    const up = u.z > 0, cls = Math.abs(u.z) < 2 ? "" : up ? "up" : "down";
+    const max = Math.max(...u.spark, 1), n = u.spark.length, bw = 100 / n;
+    const bars = u.spark.map((v, i) => { const daysAgo = n - 1 - i; const isSame = daysAgo % 7 === 0;
+      const h = Math.max(1, v / max * 40); return `<rect x="${(i * bw).toFixed(2)}" y="${(44 - h).toFixed(1)}" width="${(bw * 0.72).toFixed(2)}" height="${h.toFixed(1)}" class="${daysAgo === 0 ? "today" : isSame ? "sw" : ""}"/>`; }).join("");
+    const chg = u.change == null ? "" : `${u.change > 0 ? "+" : ""}${Math.round(u.change * 100)}% vs typical`;
+    return `<article class="u ${cls}"><h3>${esc(nice(u.type))}</h3><div class="big num">${u.count.toLocaleString()} <small>typical ${Math.round(u.typical).toLocaleString()}</small></div>
+      <span class="chg">${chg}</span><svg viewBox="0 0 100 44" preserveAspectRatio="none" role="img" aria-label="Last 8 weeks of ${esc(u.type)}">${bars}</svg><span class="note">z = ${u.z.toFixed(1)}</span></article>`;
+  }).join("") || `<p class="lead">Nothing stood out.</p>`;
+}
+
+function map(doc) {
+  if (!window.L) { $("#map").innerHTML = `<p class="lead" style="padding:16px">The map library did not load.</p>`; return; }
+  $("#map-lead").textContent = `Every request with a location on ${fmtDay(doc.day, { month: "long", day: "numeric" })} (${doc.points.length.toLocaleString()} points), colored by complaint type. Tap a type to hide or show it.`;
+  const m = L.map("map", { preferCanvas: true, scrollWheelZoom: false }).setView([40.7128, -73.95], 11);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© OpenStreetMap contributors" }).addTo(m);
+  const layers = doc.types.map(() => L.layerGroup().addTo(m));
+  const renderer = L.canvas({ padding: 0.3 });
+  doc.points.forEach(([lat, lon, t]) => L.circleMarker([lat, lon], { renderer, radius: 2.2, weight: 0, fillOpacity: .65, fillColor: TYPE_COLORS[t % TYPE_COLORS.length] }).addTo(layers[t]));
+  const counts = doc.types.map((_, i) => doc.points.filter((p) => p[2] === i).length);
+  $("#map-legend").innerHTML = doc.types.map((t, i) => `<button aria-pressed="true" data-i="${i}"><i style="background:${TYPE_COLORS[i % TYPE_COLORS.length]}"></i>${esc(nice(t))} <span class="num">${counts[i].toLocaleString()}</span></button>`).join("");
+  $("#map-legend").querySelectorAll("button").forEach((b) => b.onclick = () => { const i = +b.dataset.i, on = b.getAttribute("aria-pressed") === "true";
+    b.setAttribute("aria-pressed", String(!on)); on ? m.removeLayer(layers[i]) : layers[i].addTo(m); });
+}
+
+function trend(t) {
+  const W = 1000, H = 300, L = 56, R = 16, T = 10, B = 28, n = t.weeks.length;
+  const keys = Object.keys(BORO).filter((k) => t.boroughs[k] && k !== "UNSPECIFIED");
+  const max = Math.max(...keys.flatMap((k) => t.boroughs[k])) * 1.08;
+  const x = (i) => L + i / Math.max(1, n - 1) * (W - L - R), y = (v) => T + (1 - v / max) * (H - T - B);
+  const ticks = [0, .25, .5, .75, 1].map((f) => f * max);
+  const months = t.weeks.map((w, i) => [w, i]).filter(([w], i) => i === 0 || w.slice(5, 7) !== t.weeks[i - 1].slice(5, 7)).filter(([w]) => ["01", "04", "07", "10"].includes(w.slice(5, 7)));
+  $("#trend").innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Weekly requests by borough">
+    <g class="grid">${ticks.map((v) => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/>`).join("")}</g>
+    ${ticks.map((v) => `<text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${Math.round(v / 1000)}k</text>`).join("")}
+    ${months.map(([w, i]) => `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${new Date(w + "T12:00:00").toLocaleDateString("en-US", { month: "short", year: "2-digit" })}</text>`).join("")}
+    ${keys.map((k) => `<path d="${t.boroughs[k].map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("")}" fill="none" stroke="var(${BORO[k][1]})" stroke-width="2"><title>${BORO[k][0]}</title></path>`).join("")}</svg>`;
+  $("#trend-legend").innerHTML = keys.map((k) => `<span><i style="background:var(${BORO[k][1]})"></i>${BORO[k][0]}</span>`).join("");
+}
+
+function closure(c) {
+  if (!c || !c.agencies) return;
+  $("#closure-lead").textContent = `Share of requests closed within a day, three days and a week, for requests opened ${fmtDay(c.window[0], { month: "short", day: "numeric" })} to ${fmtDay(c.window[1], { month: "short", day: "numeric" })}. Across all agencies, ${Math.round(c.overall.closed_3d * 100)}% closed within three days.`;
+  $("#agencies").innerHTML = c.agencies.map((a) => `<div class="speed-row" title="${a.n.toLocaleString()} requests"><b>${esc(a.agency)}</b>
+    <div class="t" role="img" aria-label="${Math.round(a.closed_1d * 100)}% in a day, ${Math.round(a.closed_3d * 100)}% in 3 days, ${Math.round(a.closed_7d * 100)}% in a week">
+    <i class="d7" style="width:${a.closed_7d * 100}%"></i><i class="d3" style="width:${a.closed_3d * 100}%"></i><i class="d1" style="width:${a.closed_1d * 100}%"></i></div>
+    <span class="num" style="text-align:right">${Math.round(a.closed_3d * 100)}%</span></div>`).join("");
+  const hrs = (h) => h == null ? "–" : h < 48 ? `${h.toFixed(h < 10 ? 1 : 0)} h` : `${(h / 24).toFixed(1)} d`;
+  $("#types").innerHTML = c.types.map((t) => `<tr><td>${esc(nice(t.type))}</td><td class="r num">${t.n.toLocaleString()}</td><td class="r num">${hrs(t.median_hours)}</td><td class="r num">${Math.round(t.closed_3d * 100)}%</td></tr>`).join("");
+}
+
+function season(s) {
+  const mon = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+  $("#season-head").innerHTML = `<tr><th>Type</th>${mon.map((m, i) => `<th class="c" title="${new Date(2026, i, 1).toLocaleDateString("en-US", { month: "long" })}">${m}</th>`).join("")}</tr>`;
+  $("#season").innerHTML = Object.entries(s).map(([t, v]) => `<tr><td>${esc(nice(t))}</td>${v.map((x) => {
+    if (x == null) return `<td class="c">–</td>`;
+    const pct = Math.max(0, Math.min(100, (x - 0.4) / 1.6 * 100));
+    return `<td class="c num" style="background:color-mix(in oklab, var(--up) ${pct * 0.75}%, var(--bg));color:${pct > 62 ? "#fff" : "var(--ink)"}">${x.toFixed(1)}</td>`; }).join("")}</tr>`).join("");
+}
+
+async function get(name) { const r = await fetch(BASE + name + "?t=" + Math.floor(Date.now() / 600000), { cache: "no-store" }); if (!r.ok) throw new Error(`${name}: HTTP ${r.status}`); return r.json(); }
+(async function () {
+  let doc, pts;
+  try { [doc, pts] = await Promise.all([get("pulse.json"), get("points.json")]); }
+  catch (e) { $("#count").textContent = "–"; $("#vs").textContent = `The first daily refresh has not published data yet (${e.message}).`; $("#updated").textContent = ""; return; }
+  $("#updated").textContent = `Updated ${new Date(doc.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`;
+  hero(doc.pulse); unusual(doc.unusual, doc.pulse.day); map(pts); trend(doc.trend); closure(doc.closure); season(doc.seasonality);
+  $("#coverage").textContent = `${doc.coverage.requests.toLocaleString()} requests from ${fmtDay(doc.coverage.first_day, { month: "short", day: "numeric", year: "numeric" })} to ${fmtDay(doc.coverage.last_day, { month: "short", day: "numeric", year: "numeric" })}.`;
+})();
+</script>
+</body>
+</html>
