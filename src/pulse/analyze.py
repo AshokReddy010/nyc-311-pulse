@@ -59,8 +59,23 @@ def unusual(counts: pd.DataFrame, day: date) -> list[dict[str, Any]]:
                 "spark": [by_day.get(d, 0) for d in window],
             }
         )
-    out.sort(key=lambda r: -abs(r["z"]))
+    # Only rises are ranked: on recent days a drop is more often late-arriving records than a real lull.
+    out = [r for r in out if r["z"] > 0]
+    out.sort(key=lambda r: -r["z"])
     return out
+
+
+def latest_complete_day(counts: pd.DataFrame) -> date | None:
+    """The newest day whose volume is at least 60% of a typical same weekday (newer days are still filling in)."""
+    if counts.empty:
+        return None
+    daily = counts.groupby("day")["n"].sum()
+    daily.index = pd.to_datetime(daily.index)
+    for ts in sorted(daily.index, reverse=True)[:7]:
+        same = daily[(daily.index < ts) & (pd.DatetimeIndex(daily.index).dayofweek == ts.dayofweek)].tail(WEEKS)
+        if len(same) < 3 or daily[ts] >= 0.6 * median(same.tolist()):
+            return ts.date()
+    return daily.index.max().date()
 
 
 def build(data: Path, site: Path, today: date) -> dict[str, Any]:
@@ -71,15 +86,8 @@ def build(data: Path, site: Path, today: date) -> dict[str, Any]:
     counts["date"] = pd.to_datetime(counts["day"])
     latest = counts["date"].max().date()
     # the newest day can still be filling in; the pulse uses the latest day that looks complete
+    day = latest_complete_day(counts) or latest
     daily = counts.groupby("date")["n"].sum()
-    day = latest
-    typical = (
-        median(daily[pd.DatetimeIndex(daily.index).dayofweek == pd.Timestamp(day).dayofweek].tail(WEEKS + 1).iloc[:-1])
-        if len(daily) > WEEKS
-        else daily.median()
-    )
-    if daily.loc[pd.Timestamp(day)] < 0.6 * typical:
-        day = latest - timedelta(days=1)
     dts = pd.Timestamp(day)
     total = int(daily.loc[dts])
     same = [dts - pd.Timedelta(weeks=k) for k in range(1, WEEKS + 1)]

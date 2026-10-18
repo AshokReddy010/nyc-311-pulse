@@ -173,8 +173,10 @@ def update(data: Path, site: Path, backfill_days: int = 0, today: date | None = 
         r = resolution(fetch_requests(day))
         _upsert(res_dir, r, ["day", "agency", "complaint_type"])
         stats["resolution_rows"] += len(r)
-    # the map: yesterday's requests
-    yday = today - timedelta(days=1)
+    # the map: every request of the latest complete day
+    from .analyze import latest_complete_day, load
+
+    yday = latest_complete_day(load(counts_dir)) or today - timedelta(days=1)
     req = fetch_requests(yday)
     top = req["complaint_type"].value_counts().head(9).index.tolist()
     doc = points(req, top)
