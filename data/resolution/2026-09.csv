@@ -3942,26 +3942,26 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-29,TLC,Lost Property,20,20,2,16,20,61.85,75.39
 2026-09-29,TLC,Taxi Complaint,23,0,0,0,0,,
 2026-09-29,TLC,Taxi Report,1,0,0,0,0,,
-2026-09-30,DCWP,Consumer Complaint,85,39,19,29,29,24.04,335.05
+2026-09-30,DCWP,Consumer Complaint,85,42,19,29,29,26.15,337.7
 2026-09-30,DEP,Air Quality,42,42,10,29,40,33.95,149.75
 2026-09-30,DEP,Green Infrastructure,5,2,0,0,0,313.27,315.62
 2026-09-30,DEP,Hazardous Material,10,2,2,2,2,2.58,3.27
 2026-09-30,DEP,Lead,57,46,0,0,46,116.26,122.42
-2026-09-30,DEP,Noise,240,234,81,161,212,42.23,166.26
-2026-09-30,DEP,Sewer Maintenance,91,83,56,75,79,4.0,71.6
+2026-09-30,DEP,Noise,240,236,81,160,212,43.46,167.82
+2026-09-30,DEP,Sewer Maintenance,91,84,56,75,79,4.11,72.07
 2026-09-30,DEP,Water Conservation,18,18,14,17,18,15.75,26.34
 2026-09-30,DEP,Water Maintenance,198,187,128,152,171,8.79,140.7
 2026-09-30,DEP,Water Quality,4,4,0,2,2,128.49,303.45
 2026-09-30,DHS,Encampment,143,143,143,143,143,3.91,7.45
 2026-09-30,DHS,Homeless Person Assistance,150,150,134,148,150,9.01,30.73
 2026-09-30,DOB,BEST/Site Safety,2,2,2,2,2,6.8,8.47
-2026-09-30,DOB,Boilers,9,9,1,2,4,181.03,315.59
-2026-09-30,DOB,Building/Use,69,69,53,56,60,0.0,301.58
+2026-09-30,DOB,Boilers,9,9,0,1,3,181.82,354.43
+2026-09-30,DOB,Building/Use,69,69,50,53,57,0.0,318.84
 2026-09-30,DOB,Cranes and Derricks,1,1,1,1,1,13.13,13.13
 2026-09-30,DOB,Electrical,12,12,0,0,10,104.61,179.68
-2026-09-30,DOB,Elevator,58,58,55,56,57,0.0,13.84
+2026-09-30,DOB,Elevator,58,58,52,53,54,0.0,20.39
 2026-09-30,DOB,Emergency Response Team (ERT),13,13,8,9,12,0.0,158.33
-2026-09-30,DOB,General Construction/Plumbing,172,172,117,141,153,2.97,179.76
+2026-09-30,DOB,General Construction/Plumbing,172,172,112,136,148,8.02,303.78
 2026-09-30,DOB,Investigations and Discipline (IAD),3,3,3,3,3,0.0,0.0
 2026-09-30,DOB,Plumbing,15,15,2,6,11,104.67,252.75
 2026-09-30,DOB,Real Time Enforcement,23,23,22,23,23,3.63,14.9
@@ -3992,7 +3992,7 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-30,DOT,Bench,3,2,0,0,1,168.04,186.64
 2026-09-30,DOT,Bike Rack,3,1,0,0,1,142.79,142.79
 2026-09-30,DOT,Bridge Condition,1,0,0,0,0,,
-2026-09-30,DOT,Broken Parking Meter,16,1,1,1,1,0.15,0.15
+2026-09-30,DOT,Broken Parking Meter,16,16,1,1,1,472.73,475.17
 2026-09-30,DOT,Bus Stop Shelter Complaint,5,4,0,2,2,108.51,292.53
 2026-09-30,DOT,Bus Stop Shelter Placement,3,3,2,3,3,3.11,27.56
 2026-09-30,DOT,Curb Condition,25,22,0,1,5,340.23,386.54
@@ -4002,16 +4002,16 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-30,DOT,Public Toilet,2,2,0,2,2,47.98,50.82
 2026-09-30,DOT,Sidewalk Condition,106,93,5,26,60,146.64,302.03
 2026-09-30,DOT,Street Condition,288,271,125,201,244,24.67,167.44
-2026-09-30,DOT,Street Light Condition,202,101,5,9,15,239.17,313.47
+2026-09-30,DOT,Street Light Condition,202,110,5,9,15,239.34,313.09
 2026-09-30,DOT,Street Sign - Damaged,23,19,2,8,14,117.93,237.16
 2026-09-30,DOT,Street Sign - Dangling,12,11,1,4,4,197.59,335.56
 2026-09-30,DOT,Street Sign - Missing,6,3,1,1,2,121.25,199.88
 2026-09-30,DOT,Traffic Signal Condition,179,179,143,167,173,2.78,42.34
 2026-09-30,DPR,Animal in a Park,13,3,1,2,3,51.84,108.6
-2026-09-30,DPR,Damaged Tree,193,87,18,43,58,109.19,333.61
-2026-09-30,DPR,Dead/Dying Tree,77,21,2,9,13,140.47,330.81
-2026-09-30,DPR,Illegal Tree Damage,14,2,0,0,0,203.44,216.15
-2026-09-30,DPR,Maintenance or Facility,131,78,37,56,63,29.51,215.9
+2026-09-30,DPR,Damaged Tree,193,89,18,43,58,113.64,362.69
+2026-09-30,DPR,Dead/Dying Tree,77,23,2,9,13,141.89,389.86
+2026-09-30,DPR,Illegal Tree Damage,14,3,0,0,0,219.33,430.1
+2026-09-30,DPR,Maintenance or Facility,131,79,37,56,63,32.37,250.87
 2026-09-30,DPR,New Tree Request,10,0,0,0,0,,
 2026-09-30,DPR,Overgrown Tree/Branches,125,27,7,10,15,164.6,251.42
 2026-09-30,DPR,Root/Sewer/Sidewalk Condition,35,0,0,0,0,,
@@ -4024,7 +4024,7 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-30,DSNY,Derelict Vehicles,109,109,66,102,109,20.22,47.49
 2026-09-30,DSNY,Dirty Condition,238,233,50,162,225,46.77,115.81
 2026-09-30,DSNY,Dumpster Complaint,5,5,1,4,5,46.7,89.34
-2026-09-30,DSNY,Graffiti,49,16,1,7,11,104.19,346.79
+2026-09-30,DSNY,Graffiti,49,18,1,7,11,104.28,378.52
 2026-09-30,DSNY,Highway Condition,1,1,0,0,1,116.98,116.98
 2026-09-30,DSNY,Illegal Dumping,169,164,26,131,159,44.41,94.46
 2026-09-30,DSNY,Illegal Posting,26,26,14,21,25,21.89,143.41
@@ -4032,7 +4032,7 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-30,DSNY,Litter Basket Request,14,14,4,10,14,47.97,101.17
 2026-09-30,DSNY,Lot Condition,4,0,0,0,0,,
 2026-09-30,DSNY,Missed Collection,137,137,21,126,137,32.54,71.39
-2026-09-30,DSNY,Obstruction,95,90,27,74,87,42.08,77.93
+2026-09-30,DSNY,Obstruction,95,91,27,74,87,42.15,78.99
 2026-09-30,DSNY,Residential Disposal Complaint,48,48,8,41,48,58.09,75.31
 2026-09-30,DSNY,Sanitation Worker or Vehicle Complaint,9,9,1,5,8,49.97,195.32
 2026-09-30,DSNY,Street Sweeping Complaint,24,24,4,20,24,45.95,76.58
@@ -4049,7 +4049,7 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-09-30,HPD,PAINT/PLASTER,272,221,11,82,152,105.21,343.51
 2026-09-30,HPD,PLUMBING,251,190,13,67,122,129.18,363.98
 2026-09-30,HPD,SAFETY,57,39,2,13,30,104.9,335.25
-2026-09-30,HPD,UNSANITARY CONDITION,553,449,20,85,238,163.78,379.17
+2026-09-30,HPD,UNSANITARY CONDITION,553,450,20,85,238,163.98,379.52
 2026-09-30,HPD,WATER LEAK,195,161,8,47,100,126.06,353.56
 2026-09-30,NYPD,Abandoned Vehicle,228,228,228,228,228,2.1,9.06
 2026-09-30,NYPD,Animal-Abuse,41,41,41,41,41,2.73,14.64
