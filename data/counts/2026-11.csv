@@ -1,0 +1,104 @@
+day,complaint_type,borough,n
+2026-11-01,Abandoned Vehicle,BRONX,1
+2026-11-01,Abandoned Vehicle,BROOKLYN,15
+2026-11-01,Abandoned Vehicle,QUEENS,6
+2026-11-01,Air Quality,BROOKLYN,1
+2026-11-01,Animal-Abuse,BRONX,1
+2026-11-01,Animal-Abuse,BROOKLYN,1
+2026-11-01,Animal-Abuse,MANHATTAN,2
+2026-11-01,Animal-Abuse,QUEENS,1
+2026-11-01,Blocked Driveway,BRONX,11
+2026-11-01,Blocked Driveway,BROOKLYN,15
+2026-11-01,Blocked Driveway,MANHATTAN,2
+2026-11-01,Blocked Driveway,QUEENS,24
+2026-11-01,Cannabis Retailer,BRONX,1
+2026-11-01,Commercial Disposal Complaint,MANHATTAN,1
+2026-11-01,Consumer Complaint,BROOKLYN,1
+2026-11-01,Consumer Complaint,QUEENS,1
+2026-11-01,Dirty Condition,BROOKLYN,2
+2026-11-01,Dirty Condition,STATEN ISLAND,1
+2026-11-01,Drinking,BROOKLYN,2
+2026-11-01,Drinking,MANHATTAN,1
+2026-11-01,Drug Activity,BRONX,1
+2026-11-01,Drug Activity,QUEENS,2
+2026-11-01,Encampment,BROOKLYN,1
+2026-11-01,Encampment,MANHATTAN,1
+2026-11-01,Ferry Inquiry,UNSPECIFIED,1
+2026-11-01,Food Establishment,MANHATTAN,1
+2026-11-01,Food Poisoning,MANHATTAN,1
+2026-11-01,For Hire Vehicle Complaint,BROOKLYN,2
+2026-11-01,For Hire Vehicle Complaint,MANHATTAN,2
+2026-11-01,Graffiti,BRONX,1
+2026-11-01,Graffiti,QUEENS,1
+2026-11-01,Green Taxi Complaint,UNSPECIFIED,1
+2026-11-01,Homeless Person Assistance,BROOKLYN,1
+2026-11-01,Homeless Person Assistance,MANHATTAN,4
+2026-11-01,Homeless Person Assistance,QUEENS,1
+2026-11-01,Homeless Person Assistance,STATEN ISLAND,1
+2026-11-01,Illegal Dumping,QUEENS,2
+2026-11-01,Illegal Parking,BRONX,14
+2026-11-01,Illegal Parking,BROOKLYN,56
+2026-11-01,Illegal Parking,MANHATTAN,13
+2026-11-01,Illegal Parking,QUEENS,79
+2026-11-01,Illegal Parking,STATEN ISLAND,1
+2026-11-01,Illegal Posting,STATEN ISLAND,3
+2026-11-01,Indoor Air Quality,BRONX,1
+2026-11-01,Lead,BROOKLYN,1
+2026-11-01,Lost Property,MANHATTAN,2
+2026-11-01,Maintenance or Facility,BRONX,1
+2026-11-01,Maintenance or Facility,MANHATTAN,1
+2026-11-01,Missed Collection,BROOKLYN,1
+2026-11-01,Noise,BRONX,2
+2026-11-01,Noise,BROOKLYN,4
+2026-11-01,Noise,MANHATTAN,8
+2026-11-01,Noise,QUEENS,1
+2026-11-01,Noise,STATEN ISLAND,1
+2026-11-01,Noise - Commercial,BRONX,13
+2026-11-01,Noise - Commercial,BROOKLYN,56
+2026-11-01,Noise - Commercial,MANHATTAN,59
+2026-11-01,Noise - Commercial,QUEENS,38
+2026-11-01,Noise - Commercial,STATEN ISLAND,1
+2026-11-01,Noise - House of Worship,QUEENS,1
+2026-11-01,Noise - Park,BROOKLYN,2
+2026-11-01,Noise - Park,MANHATTAN,1
+2026-11-01,Noise - Park,QUEENS,1
+2026-11-01,Noise - Residential,BRONX,90
+2026-11-01,Noise - Residential,BROOKLYN,300
+2026-11-01,Noise - Residential,MANHATTAN,239
+2026-11-01,Noise - Residential,QUEENS,149
+2026-11-01,Noise - Residential,STATEN ISLAND,17
+2026-11-01,Noise - Street/Sidewalk,BRONX,25
+2026-11-01,Noise - Street/Sidewalk,BROOKLYN,54
+2026-11-01,Noise - Street/Sidewalk,MANHATTAN,82
+2026-11-01,Noise - Street/Sidewalk,QUEENS,31
+2026-11-01,Noise - Vehicle,BRONX,5
+2026-11-01,Noise - Vehicle,BROOKLYN,4
+2026-11-01,Noise - Vehicle,MANHATTAN,17
+2026-11-01,Noise - Vehicle,QUEENS,9
+2026-11-01,Noise - Vehicle,STATEN ISLAND,1
+2026-11-01,Non-Emergency Police Matter,BRONX,1
+2026-11-01,Outdoor Dining,BROOKLYN,1
+2026-11-01,Overgrown Tree/Branches,QUEENS,1
+2026-11-01,Panhandling,BROOKLYN,1
+2026-11-01,Rodent,BRONX,1
+2026-11-01,Rodent,BROOKLYN,2
+2026-11-01,Rodent,MANHATTAN,1
+2026-11-01,Sewer Maintenance,QUEENS,1
+2026-11-01,Sewer Maintenance,STATEN ISLAND,1
+2026-11-01,Sidewalk Condition,BROOKLYN,1
+2026-11-01,Smoking or Vaping,BROOKLYN,1
+2026-11-01,Smoking or Vaping,MANHATTAN,3
+2026-11-01,Street Condition,BROOKLYN,1
+2026-11-01,Street Light Condition,BROOKLYN,1
+2026-11-01,Street Sign - Damaged,BROOKLYN,1
+2026-11-01,Taxi Complaint,BROOKLYN,1
+2026-11-01,Taxi Complaint,MANHATTAN,6
+2026-11-01,Taxi Complaint,QUEENS,1
+2026-11-01,Taxi Report,MANHATTAN,1
+2026-11-01,Traffic,MANHATTAN,2
+2026-11-01,Traffic Signal Condition,BROOKLYN,1
+2026-11-01,Urinating in Public,BROOKLYN,1
+2026-11-01,Urinating in Public,QUEENS,3
+2026-11-01,Vendor Enforcement,QUEENS,1
+2026-11-01,Water Maintenance,MANHATTAN,2
+2026-11-01,Water Maintenance,STATEN ISLAND,5
