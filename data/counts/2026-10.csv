@@ -13533,7 +13533,7 @@ day,complaint_type,borough,n
 2026-10-29,Elevator,MANHATTAN,9
 2026-10-29,Elevator,QUEENS,11
 2026-10-29,Elevator,STATEN ISLAND,1
-2026-10-29,Emergency Response Team (ERT),BROOKLYN,5
+2026-10-29,Emergency Response Team (ERT),BROOKLYN,6
 2026-10-29,Emergency Response Team (ERT),MANHATTAN,6
 2026-10-29,Emergency Response Team (ERT),QUEENS,2
 2026-10-29,Encampment,BRONX,13
@@ -13567,7 +13567,7 @@ day,complaint_type,borough,n
 2026-10-29,GENERAL,QUEENS,38
 2026-10-29,GENERAL,STATEN ISLAND,2
 2026-10-29,General Construction/Plumbing,BRONX,12
-2026-10-29,General Construction/Plumbing,BROOKLYN,54
+2026-10-29,General Construction/Plumbing,BROOKLYN,53
 2026-10-29,General Construction/Plumbing,MANHATTAN,31
 2026-10-29,General Construction/Plumbing,QUEENS,38
 2026-10-29,General Construction/Plumbing,STATEN ISLAND,9
@@ -14455,7 +14455,7 @@ day,complaint_type,borough,n
 2026-10-31,Derelict Vehicles,BRONX,11
 2026-10-31,Derelict Vehicles,BROOKLYN,23
 2026-10-31,Derelict Vehicles,MANHATTAN,3
-2026-10-31,Derelict Vehicles,QUEENS,19
+2026-10-31,Derelict Vehicles,QUEENS,20
 2026-10-31,Derelict Vehicles,STATEN ISLAND,4
 2026-10-31,Dirty Condition,BRONX,16
 2026-10-31,Dirty Condition,BROOKLYN,31
