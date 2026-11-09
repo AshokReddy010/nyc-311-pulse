@@ -1,0 +1,133 @@
+day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_hours
+2026-11-01,DCWP,Consumer Complaint,58,18,11,14,18,22.9,87.27
+2026-11-01,DEP,Air Quality,13,11,3,10,11,28.97,71.4
+2026-11-01,DEP,Hazardous Material,4,1,1,1,1,6.4,6.4
+2026-11-01,DEP,Industrial Waste,2,0,0,0,0,,
+2026-11-01,DEP,Lead,24,0,0,0,0,,
+2026-11-01,DEP,Noise,138,121,18,50,121,76.05,102.86
+2026-11-01,DEP,Sewer Maintenance,45,39,29,32,39,3.41,93.58
+2026-11-01,DEP,Waste Water Treatment Plant,1,1,1,1,1,1.64,1.64
+2026-11-01,DEP,Water Conservation,8,6,5,6,6,19.21,24.99
+2026-11-01,DEP,Water Maintenance,110,96,62,83,96,9.3,78.02
+2026-11-01,DEP,Water Quality,1,1,0,1,1,61.49,61.49
+2026-11-01,DHS,Encampment,123,123,123,123,123,6.74,10.74
+2026-11-01,DHS,Homeless Person Assistance,84,84,77,84,84,10.17,21.9
+2026-11-01,DOB,Boilers,13,13,11,12,13,0.0,44.33
+2026-11-01,DOB,Building/Use,42,42,39,42,42,0.0,0.0
+2026-11-01,DOB,Electrical,3,3,0,0,3,109.64,118.7
+2026-11-01,DOB,Elevator,32,32,20,30,32,0.0,64.55
+2026-11-01,DOB,Emergency Response Team (ERT),11,11,11,11,11,0.0,0.0
+2026-11-01,DOB,General Construction/Plumbing,58,58,52,53,58,0.0,24.05
+2026-11-01,DOB,Investigations and Discipline (IAD),4,4,0,0,4,100.19,104.36
+2026-11-01,DOB,Real Time Enforcement,6,6,5,6,6,11.03,36.04
+2026-11-01,DOB,Special Projects Inspection Team (SPIT),10,10,10,10,10,0.0,0.0
+2026-11-01,DOHMH,Asbestos,3,3,0,3,3,46.26,56.66
+2026-11-01,DOHMH,Beach/Pool/Sauna Complaint,1,1,0,1,1,29.32,29.32
+2026-11-01,DOHMH,Construction Lead Dust,1,0,0,0,0,,
+2026-11-01,DOHMH,Drinking Water,2,0,0,0,0,,
+2026-11-01,DOHMH,Food Establishment,40,0,0,0,0,,
+2026-11-01,DOHMH,Food Poisoning,7,1,0,1,1,56.17,56.17
+2026-11-01,DOHMH,Harboring Bees/Wasps,1,0,0,0,0,,
+2026-11-01,DOHMH,Illegal Animal Kept as Pet,1,0,0,0,0,,
+2026-11-01,DOHMH,Illegal Animal Sold,1,0,0,0,0,,
+2026-11-01,DOHMH,Indoor Air Quality,25,25,0,25,25,50.48,56.52
+2026-11-01,DOHMH,Indoor Sewage,5,2,0,0,2,114.07,117.12
+2026-11-01,DOHMH,Mobile Food Vendor,6,0,0,0,0,,
+2026-11-01,DOHMH,Mold,1,1,0,1,1,34.39,34.39
+2026-11-01,DOHMH,Non-Residential Heat,1,0,0,0,0,,
+2026-11-01,DOHMH,Pet Sale,1,0,0,0,0,,
+2026-11-01,DOHMH,Rodent,81,22,0,17,22,59.8,117.08
+2026-11-01,DOHMH,Smoking or Vaping,31,1,0,1,1,31.36,31.36
+2026-11-01,DOHMH,Unleashed Dog,7,0,0,0,0,,
+2026-11-01,DOHMH,Unsanitary Animal Pvt Property,8,0,0,0,0,,
+2026-11-01,DOHMH,Unsanitary Pigeon Condition,7,2,0,0,2,124.29,130.79
+2026-11-01,DOT,Bike Rack,2,0,0,0,0,,
+2026-11-01,DOT,Bridge Condition,1,0,0,0,0,,
+2026-11-01,DOT,Broken Parking Meter,1,1,0,0,1,116.44,116.44
+2026-11-01,DOT,Bus Stop Shelter Complaint,4,0,0,0,0,,
+2026-11-01,DOT,Curb Condition,11,0,0,0,0,,
+2026-11-01,DOT,E-Scooter,3,3,1,3,3,26.46,26.48
+2026-11-01,DOT,Ferry Complaint,2,2,0,0,2,97.52,97.53
+2026-11-01,DOT,Ferry Inquiry,2,2,1,2,2,24.77,32.9
+2026-11-01,DOT,Highway Condition,7,6,3,5,6,41.84,81.15
+2026-11-01,DOT,Highway Sign - Damaged,1,1,0,0,1,133.82,133.82
+2026-11-01,DOT,Municipal Parking Facility,1,0,0,0,0,,
+2026-11-01,DOT,Outdoor Dining,9,0,0,0,0,,
+2026-11-01,DOT,Sidewalk Condition,37,24,2,11,24,73.41,106.04
+2026-11-01,DOT,Street Condition,103,77,31,57,77,32.96,94.87
+2026-11-01,DOT,Street Light Condition,91,9,3,4,9,76.35,86.59
+2026-11-01,DOT,Street Sign - Damaged,16,11,1,5,11,72.28,133.77
+2026-11-01,DOT,Street Sign - Dangling,10,4,0,0,4,107.93,121.75
+2026-11-01,DOT,Street Sign - Missing,5,3,1,2,3,32.78,84.58
+2026-11-01,DOT,Traffic Signal Condition,51,51,48,51,51,1.83,11.87
+2026-11-01,DPR,Animal in a Park,9,4,2,4,4,12.17,25.85
+2026-11-01,DPR,Damaged Tree,24,11,4,8,11,28.04,121.0
+2026-11-01,DPR,Dead/Dying Tree,13,1,1,1,1,22.63,22.63
+2026-11-01,DPR,Illegal Tree Damage,18,1,0,0,1,73.14,73.14
+2026-11-01,DPR,Maintenance or Facility,57,14,4,10,14,66.57,86.68
+2026-11-01,DPR,New Tree Request,1,0,0,0,0,,
+2026-11-01,DPR,Overgrown Tree/Branches,18,3,2,2,3,19.8,96.96
+2026-11-01,DPR,Root/Sewer/Sidewalk Condition,16,0,0,0,0,,
+2026-11-01,DPR,Uprooted Stump,1,0,0,0,0,,
+2026-11-01,DPR,Violation of Park Rules,12,7,5,6,7,2.1,71.89
+2026-11-01,DSNY,Commercial Disposal Complaint,3,3,2,3,3,0.31,29.33
+2026-11-01,DSNY,Dead Animal,34,34,8,18,34,70.93,124.53
+2026-11-01,DSNY,Derelict Vehicles,73,73,38,60,73,22.48,83.66
+2026-11-01,DSNY,Dirty Condition,169,158,21,84,158,70.46,119.03
+2026-11-01,DSNY,Dumpster Complaint,4,4,0,2,4,68.43,93.06
+2026-11-01,DSNY,Graffiti,28,15,10,14,15,12.02,60.28
+2026-11-01,DSNY,Highway Condition,5,0,0,0,0,,
+2026-11-01,DSNY,Illegal Dumping,69,65,9,27,65,74.01,111.1
+2026-11-01,DSNY,Illegal Posting,39,29,5,13,29,72.82,94.93
+2026-11-01,DSNY,Litter Basket Complaint,3,2,0,1,2,60.13,74.28
+2026-11-01,DSNY,Litter Basket Request,7,7,2,2,7,98.24,106.8
+2026-11-01,DSNY,Lot Condition,1,0,0,0,0,,
+2026-11-01,DSNY,Missed Collection,83,82,13,39,82,72.51,89.49
+2026-11-01,DSNY,Obstruction,28,26,7,18,26,64.07,85.99
+2026-11-01,DSNY,Recycling Basket Complaint,1,1,0,0,1,98.03,98.03
+2026-11-01,DSNY,Residential Disposal Complaint,39,36,7,22,36,65.79,106.03
+2026-11-01,DSNY,Sanitation Worker or Vehicle Complaint,3,3,1,2,3,69.6,110.42
+2026-11-01,DSNY,Street Sweeping Complaint,4,4,0,1,4,94.13,125.0
+2026-11-01,DSNY,Vendor Enforcement,29,29,29,29,29,0.37,0.53
+2026-11-01,EDC,Noise - Helicopter,8,0,0,0,0,,
+2026-11-01,HPD,APPLIANCE,52,11,0,6,11,69.68,124.75
+2026-11-01,HPD,DOOR/WINDOW,95,44,5,12,44,79.21,123.57
+2026-11-01,HPD,ELECTRIC,55,22,2,13,22,56.55,150.14
+2026-11-01,HPD,ELEVATOR,4,3,0,2,3,68.96,74.77
+2026-11-01,HPD,FLOORING/STAIRS,44,16,0,7,16,75.74,150.22
+2026-11-01,HPD,GENERAL,99,35,7,19,35,71.07,142.63
+2026-11-01,HPD,HEAT/HOT WATER,1272,1162,270,1144,1162,33.51,56.69
+2026-11-01,HPD,OUTSIDE BUILDING,1,0,0,0,0,,
+2026-11-01,HPD,PAINT/PLASTER,100,49,5,23,49,73.15,141.01
+2026-11-01,HPD,PLUMBING,104,41,1,16,41,74.41,141.9
+2026-11-01,HPD,SAFETY,25,15,1,10,15,64.89,98.32
+2026-11-01,HPD,UNSANITARY CONDITION,278,124,2,31,124,88.13,136.94
+2026-11-01,HPD,WATER LEAK,88,35,2,14,35,77.07,125.89
+2026-11-01,NYPD,Abandoned Vehicle,160,160,145,160,160,2.61,15.5
+2026-11-01,NYPD,Animal-Abuse,45,45,45,45,45,2.89,9.4
+2026-11-01,NYPD,Bike/Roller/Skate,4,4,4,4,4,1.08,1.62
+2026-11-01,NYPD,Blocked Driveway,608,608,587,608,608,2.25,10.29
+2026-11-01,NYPD,Drinking,18,18,17,18,18,1.99,7.92
+2026-11-01,NYPD,Drug Activity,15,15,13,15,15,3.2,26.16
+2026-11-01,NYPD,Graffiti,1,1,1,1,1,1.54,1.54
+2026-11-01,NYPD,Illegal Fireworks,1,1,1,1,1,4.35,4.35
+2026-11-01,NYPD,Illegal Parking,1836,1836,1775,1836,1836,2.06,10.71
+2026-11-01,NYPD,Noise - Commercial,352,352,277,352,352,1.94,40.87
+2026-11-01,NYPD,Noise - House of Worship,6,6,6,6,6,2.36,6.17
+2026-11-01,NYPD,Noise - Park,23,23,21,23,23,1.38,19.26
+2026-11-01,NYPD,Noise - Residential,1949,1947,1620,1947,1947,2.1,40.8
+2026-11-01,NYPD,Noise - Street/Sidewalk,685,684,611,684,684,2.09,40.28
+2026-11-01,NYPD,Noise - Vehicle,222,222,210,222,222,1.54,7.02
+2026-11-01,NYPD,Non-Emergency Police Matter,59,59,56,59,59,1.36,8.19
+2026-11-01,NYPD,Panhandling,27,27,27,27,27,0.76,2.65
+2026-11-01,NYPD,Traffic,39,39,38,39,39,1.48,3.49
+2026-11-01,NYPD,Urinating in Public,16,16,16,16,16,2.0,6.58
+2026-11-01,OOS,Cannabis Retailer,12,2,0,1,2,75.0,80.28
+2026-11-01,OTI,LinkNYC,1,0,0,0,0,,
+2026-11-01,TLC,For Hire Vehicle Complaint,49,0,0,0,0,,
+2026-11-01,TLC,For Hire Vehicle Report,1,0,0,0,0,,
+2026-11-01,TLC,Green Taxi Complaint,1,1,0,0,1,80.36,80.36
+2026-11-01,TLC,Lost Property,22,22,1,9,22,75.5,118.12
+2026-11-01,TLC,Taxi Complaint,42,0,0,0,0,,
+2026-11-01,TLC,Taxi Compliment,2,0,0,0,0,,
+2026-11-01,TLC,Taxi Report,4,0,0,0,0,,
