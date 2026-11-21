@@ -6104,7 +6104,7 @@ day,complaint_type,borough,n
 2026-11-14,Derelict Vehicles,BRONX,8
 2026-11-14,Derelict Vehicles,BROOKLYN,13
 2026-11-14,Derelict Vehicles,MANHATTAN,2
-2026-11-14,Derelict Vehicles,QUEENS,25
+2026-11-14,Derelict Vehicles,QUEENS,27
 2026-11-14,Derelict Vehicles,STATEN ISLAND,3
 2026-11-14,Dirty Condition,BRONX,9
 2026-11-14,Dirty Condition,BROOKLYN,33
@@ -7294,8 +7294,8 @@ day,complaint_type,borough,n
 2026-11-16,Street Light Condition,BROOKLYN,51
 2026-11-16,Street Light Condition,MANHATTAN,31
 2026-11-16,Street Light Condition,QUEENS,34
-2026-11-16,Street Light Condition,STATEN ISLAND,33
-2026-11-16,Street Light Condition,UNSPECIFIED,3
+2026-11-16,Street Light Condition,STATEN ISLAND,34
+2026-11-16,Street Light Condition,UNSPECIFIED,2
 2026-11-16,Street Sign - Damaged,BROOKLYN,9
 2026-11-16,Street Sign - Damaged,MANHATTAN,4
 2026-11-16,Street Sign - Damaged,QUEENS,6
@@ -7378,6 +7378,7 @@ day,complaint_type,borough,n
 2026-11-16,Water Quality,BROOKLYN,3
 2026-11-16,Water Quality,MANHATTAN,2
 2026-11-16,Water Quality,QUEENS,1
+2026-11-17,AHV Inspection Unit,BROOKLYN,1
 2026-11-17,APPLIANCE,BRONX,44
 2026-11-17,APPLIANCE,BROOKLYN,37
 2026-11-17,APPLIANCE,MANHATTAN,33
@@ -7417,7 +7418,7 @@ day,complaint_type,borough,n
 2026-11-17,Blocked Driveway,STATEN ISLAND,20
 2026-11-17,Boilers,BRONX,4
 2026-11-17,Boilers,BROOKLYN,1
-2026-11-17,Boilers,MANHATTAN,10
+2026-11-17,Boilers,MANHATTAN,11
 2026-11-17,Boilers,QUEENS,3
 2026-11-17,Bridge Condition,BROOKLYN,1
 2026-11-17,Bridge Condition,MANHATTAN,2
@@ -7428,8 +7429,8 @@ day,complaint_type,borough,n
 2026-11-17,Building/Use,BRONX,8
 2026-11-17,Building/Use,BROOKLYN,20
 2026-11-17,Building/Use,MANHATTAN,3
-2026-11-17,Building/Use,QUEENS,56
-2026-11-17,Building/Use,STATEN ISLAND,7
+2026-11-17,Building/Use,QUEENS,60
+2026-11-17,Building/Use,STATEN ISLAND,8
 2026-11-17,Bus Stop Shelter Complaint,MANHATTAN,1
 2026-11-17,Bus Stop Shelter Complaint,QUEENS,1
 2026-11-17,Bus Stop Shelter Placement,MANHATTAN,2
@@ -7479,10 +7480,10 @@ day,complaint_type,borough,n
 2026-11-17,Dead/Dying Tree,QUEENS,10
 2026-11-17,Dead/Dying Tree,STATEN ISLAND,2
 2026-11-17,Dead/Dying Tree,UNSPECIFIED,1
-2026-11-17,Derelict Vehicles,BRONX,23
-2026-11-17,Derelict Vehicles,BROOKLYN,33
-2026-11-17,Derelict Vehicles,MANHATTAN,8
-2026-11-17,Derelict Vehicles,QUEENS,25
+2026-11-17,Derelict Vehicles,BRONX,25
+2026-11-17,Derelict Vehicles,BROOKLYN,38
+2026-11-17,Derelict Vehicles,MANHATTAN,9
+2026-11-17,Derelict Vehicles,QUEENS,27
 2026-11-17,Derelict Vehicles,STATEN ISLAND,5
 2026-11-17,Dirty Condition,BRONX,39
 2026-11-17,Dirty Condition,BROOKLYN,77
@@ -7513,14 +7514,15 @@ day,complaint_type,borough,n
 2026-11-17,ELEVATOR,BRONX,6
 2026-11-17,ELEVATOR,MANHATTAN,1
 2026-11-17,ELEVATOR,QUEENS,4
+2026-11-17,Electrical,BROOKLYN,1
 2026-11-17,Electrical,MANHATTAN,2
 2026-11-17,Electrical,QUEENS,1
 2026-11-17,Elevator,BRONX,30
 2026-11-17,Elevator,BROOKLYN,15
-2026-11-17,Elevator,MANHATTAN,13
+2026-11-17,Elevator,MANHATTAN,14
 2026-11-17,Elevator,QUEENS,7
 2026-11-17,Emergency Response Team (ERT),BRONX,3
-2026-11-17,Emergency Response Team (ERT),BROOKLYN,8
+2026-11-17,Emergency Response Team (ERT),BROOKLYN,13
 2026-11-17,Emergency Response Team (ERT),MANHATTAN,3
 2026-11-17,Emergency Response Team (ERT),STATEN ISLAND,1
 2026-11-17,Encampment,BRONX,14
@@ -7556,10 +7558,10 @@ day,complaint_type,borough,n
 2026-11-17,GENERAL,QUEENS,33
 2026-11-17,GENERAL,STATEN ISLAND,1
 2026-11-17,General Construction/Plumbing,BRONX,25
-2026-11-17,General Construction/Plumbing,BROOKLYN,70
-2026-11-17,General Construction/Plumbing,MANHATTAN,35
-2026-11-17,General Construction/Plumbing,QUEENS,23
-2026-11-17,General Construction/Plumbing,STATEN ISLAND,5
+2026-11-17,General Construction/Plumbing,BROOKLYN,76
+2026-11-17,General Construction/Plumbing,MANHATTAN,40
+2026-11-17,General Construction/Plumbing,QUEENS,26
+2026-11-17,General Construction/Plumbing,STATEN ISLAND,6
 2026-11-17,Graffiti,BRONX,5
 2026-11-17,Graffiti,BROOKLYN,12
 2026-11-17,Graffiti,MANHATTAN,15
@@ -7726,12 +7728,13 @@ day,complaint_type,borough,n
 2026-11-17,Panhandling,MANHATTAN,18
 2026-11-17,Panhandling,QUEENS,1
 2026-11-17,Panhandling,STATEN ISLAND,1
-2026-11-17,Plumbing,BROOKLYN,6
+2026-11-17,Plumbing,BRONX,1
+2026-11-17,Plumbing,BROOKLYN,7
 2026-11-17,Plumbing,MANHATTAN,3
 2026-11-17,Plumbing,QUEENS,6
-2026-11-17,Plumbing,STATEN ISLAND,1
+2026-11-17,Plumbing,STATEN ISLAND,2
 2026-11-17,Real Time Enforcement,BRONX,1
-2026-11-17,Real Time Enforcement,BROOKLYN,11
+2026-11-17,Real Time Enforcement,BROOKLYN,13
 2026-11-17,Real Time Enforcement,MANHATTAN,5
 2026-11-17,Real Time Enforcement,QUEENS,1
 2026-11-17,Recycling Basket Complaint,MANHATTAN,1
@@ -7775,7 +7778,7 @@ day,complaint_type,borough,n
 2026-11-17,Smoking or Vaping,QUEENS,6
 2026-11-17,Special Projects Inspection Team (SPIT),BROOKLYN,5
 2026-11-17,Special Projects Inspection Team (SPIT),MANHATTAN,3
-2026-11-17,Special Projects Inspection Team (SPIT),STATEN ISLAND,1
+2026-11-17,Special Projects Inspection Team (SPIT),STATEN ISLAND,2
 2026-11-17,Street Condition,BRONX,19
 2026-11-17,Street Condition,BROOKLYN,107
 2026-11-17,Street Condition,MANHATTAN,46
@@ -7819,7 +7822,7 @@ day,complaint_type,borough,n
 2026-11-17,Traffic Signal Condition,BRONX,6
 2026-11-17,Traffic Signal Condition,BROOKLYN,46
 2026-11-17,Traffic Signal Condition,MANHATTAN,42
-2026-11-17,Traffic Signal Condition,QUEENS,33
+2026-11-17,Traffic Signal Condition,QUEENS,34
 2026-11-17,Traffic Signal Condition,STATEN ISLAND,6
 2026-11-17,UNSANITARY CONDITION,BRONX,203
 2026-11-17,UNSANITARY CONDITION,BROOKLYN,172
@@ -7904,7 +7907,7 @@ day,complaint_type,borough,n
 2026-11-18,Blocked Driveway,QUEENS,203
 2026-11-18,Blocked Driveway,STATEN ISLAND,18
 2026-11-18,Boilers,BRONX,4
-2026-11-18,Boilers,BROOKLYN,2
+2026-11-18,Boilers,BROOKLYN,3
 2026-11-18,Boilers,MANHATTAN,3
 2026-11-18,Boilers,QUEENS,2
 2026-11-18,Bridge Condition,BROOKLYN,1
@@ -7912,11 +7915,11 @@ day,complaint_type,borough,n
 2026-11-18,Broken Parking Meter,BROOKLYN,5
 2026-11-18,Broken Parking Meter,MANHATTAN,3
 2026-11-18,Broken Parking Meter,QUEENS,1
-2026-11-18,Building/Use,BRONX,4
-2026-11-18,Building/Use,BROOKLYN,14
+2026-11-18,Building/Use,BRONX,6
+2026-11-18,Building/Use,BROOKLYN,17
 2026-11-18,Building/Use,MANHATTAN,5
 2026-11-18,Building/Use,QUEENS,32
-2026-11-18,Building/Use,STATEN ISLAND,8
+2026-11-18,Building/Use,STATEN ISLAND,9
 2026-11-18,Bus Stop Shelter Complaint,BROOKLYN,3
 2026-11-18,Bus Stop Shelter Complaint,MANHATTAN,1
 2026-11-18,Bus Stop Shelter Complaint,QUEENS,1
@@ -7964,11 +7967,11 @@ day,complaint_type,borough,n
 2026-11-18,Dead/Dying Tree,QUEENS,5
 2026-11-18,Dead/Dying Tree,STATEN ISLAND,2
 2026-11-18,Dead/Dying Tree,UNSPECIFIED,1
-2026-11-18,Derelict Vehicles,BRONX,8
-2026-11-18,Derelict Vehicles,BROOKLYN,10
-2026-11-18,Derelict Vehicles,MANHATTAN,2
-2026-11-18,Derelict Vehicles,QUEENS,16
-2026-11-18,Derelict Vehicles,STATEN ISLAND,1
+2026-11-18,Derelict Vehicles,BRONX,19
+2026-11-18,Derelict Vehicles,BROOKLYN,25
+2026-11-18,Derelict Vehicles,MANHATTAN,3
+2026-11-18,Derelict Vehicles,QUEENS,33
+2026-11-18,Derelict Vehicles,STATEN ISLAND,7
 2026-11-18,Dirty Condition,BRONX,35
 2026-11-18,Dirty Condition,BROOKLYN,42
 2026-11-18,Dirty Condition,MANHATTAN,44
@@ -7995,14 +7998,15 @@ day,complaint_type,borough,n
 2026-11-18,ELEVATOR,QUEENS,1
 2026-11-18,ELEVATOR,STATEN ISLAND,1
 2026-11-18,Electrical,QUEENS,1
-2026-11-18,Elevator,BRONX,17
+2026-11-18,Elevator,BRONX,18
 2026-11-18,Elevator,BROOKLYN,10
-2026-11-18,Elevator,MANHATTAN,18
+2026-11-18,Elevator,MANHATTAN,19
 2026-11-18,Elevator,QUEENS,8
 2026-11-18,Elevator,STATEN ISLAND,2
 2026-11-18,Emergency Response Team (ERT),BRONX,1
 2026-11-18,Emergency Response Team (ERT),BROOKLYN,5
 2026-11-18,Emergency Response Team (ERT),MANHATTAN,1
+2026-11-18,Emergency Response Team (ERT),QUEENS,1
 2026-11-18,Encampment,BRONX,8
 2026-11-18,Encampment,BROOKLYN,18
 2026-11-18,Encampment,MANHATTAN,117
@@ -8037,11 +8041,11 @@ day,complaint_type,borough,n
 2026-11-18,GENERAL,MANHATTAN,45
 2026-11-18,GENERAL,QUEENS,32
 2026-11-18,GENERAL,STATEN ISLAND,1
-2026-11-18,General Construction/Plumbing,BRONX,17
-2026-11-18,General Construction/Plumbing,BROOKLYN,56
-2026-11-18,General Construction/Plumbing,MANHATTAN,33
-2026-11-18,General Construction/Plumbing,QUEENS,27
-2026-11-18,General Construction/Plumbing,STATEN ISLAND,1
+2026-11-18,General Construction/Plumbing,BRONX,19
+2026-11-18,General Construction/Plumbing,BROOKLYN,57
+2026-11-18,General Construction/Plumbing,MANHATTAN,37
+2026-11-18,General Construction/Plumbing,QUEENS,34
+2026-11-18,General Construction/Plumbing,STATEN ISLAND,2
 2026-11-18,General Construction/Plumbing,UNSPECIFIED,1
 2026-11-18,Graffiti,BRONX,17
 2026-11-18,Graffiti,BROOKLYN,15
@@ -8209,11 +8213,11 @@ day,complaint_type,borough,n
 2026-11-18,Pet Sale,BROOKLYN,1
 2026-11-18,Plumbing,BROOKLYN,3
 2026-11-18,Plumbing,MANHATTAN,1
-2026-11-18,Plumbing,QUEENS,3
+2026-11-18,Plumbing,QUEENS,2
 2026-11-18,Poison Ivy,STATEN ISLAND,1
 2026-11-18,Public Toilet,BROOKLYN,1
 2026-11-18,Real Time Enforcement,BRONX,2
-2026-11-18,Real Time Enforcement,BROOKLYN,9
+2026-11-18,Real Time Enforcement,BROOKLYN,10
 2026-11-18,Real Time Enforcement,MANHATTAN,6
 2026-11-18,Real Time Enforcement,QUEENS,1
 2026-11-18,Recycling Basket Complaint,BRONX,1
@@ -8243,6 +8247,7 @@ day,complaint_type,borough,n
 2026-11-18,Sanitation Worker or Vehicle Complaint,BROOKLYN,4
 2026-11-18,Sanitation Worker or Vehicle Complaint,MANHATTAN,3
 2026-11-18,Sanitation Worker or Vehicle Complaint,QUEENS,4
+2026-11-18,Scaffold Safety,BROOKLYN,1
 2026-11-18,Scaffold Safety,MANHATTAN,1
 2026-11-18,Sewer Maintenance,BRONX,2
 2026-11-18,Sewer Maintenance,BROOKLYN,14
@@ -8260,12 +8265,12 @@ day,complaint_type,borough,n
 2026-11-18,Smoking or Vaping,QUEENS,7
 2026-11-18,Special Projects Inspection Team (SPIT),BRONX,1
 2026-11-18,Special Projects Inspection Team (SPIT),BROOKLYN,1
-2026-11-18,Special Projects Inspection Team (SPIT),MANHATTAN,7
-2026-11-18,Special Projects Inspection Team (SPIT),QUEENS,1
+2026-11-18,Special Projects Inspection Team (SPIT),MANHATTAN,9
+2026-11-18,Special Projects Inspection Team (SPIT),QUEENS,2
 2026-11-18,Street Condition,BRONX,24
-2026-11-18,Street Condition,BROOKLYN,36
-2026-11-18,Street Condition,MANHATTAN,29
-2026-11-18,Street Condition,QUEENS,77
+2026-11-18,Street Condition,BROOKLYN,68
+2026-11-18,Street Condition,MANHATTAN,43
+2026-11-18,Street Condition,QUEENS,102
 2026-11-18,Street Condition,STATEN ISLAND,14
 2026-11-18,Street Light Condition,BRONX,30
 2026-11-18,Street Light Condition,BROOKLYN,53
@@ -8350,78 +8355,559 @@ day,complaint_type,borough,n
 2026-11-18,Water Quality,BROOKLYN,1
 2026-11-18,Water Quality,STATEN ISLAND,1
 2026-11-18,Wood Pile Remaining,QUEENS,1
-2026-11-19,Abandoned Vehicle,BRONX,1
-2026-11-19,Abandoned Vehicle,QUEENS,3
-2026-11-19,Abandoned Vehicle,STATEN ISLAND,1
-2026-11-19,Blocked Driveway,BRONX,2
-2026-11-19,Blocked Driveway,BROOKLYN,9
-2026-11-19,Blocked Driveway,MANHATTAN,1
-2026-11-19,Blocked Driveway,QUEENS,7
-2026-11-19,Consumer Complaint,QUEENS,1
-2026-11-19,Curb Condition,BROOKLYN,1
-2026-11-19,Curb Condition,STATEN ISLAND,1
-2026-11-19,Dead Animal,QUEENS,1
-2026-11-19,Dirty Condition,MANHATTAN,1
-2026-11-19,Drinking,BRONX,1
-2026-11-19,Drug Activity,BRONX,1
-2026-11-19,Drug Activity,QUEENS,2
-2026-11-19,Encampment,BROOKLYN,1
-2026-11-19,Encampment,MANHATTAN,1
-2026-11-19,Food Establishment,MANHATTAN,1
-2026-11-19,Homeless Person Assistance,MANHATTAN,4
-2026-11-19,Homeless Person Assistance,QUEENS,1
-2026-11-19,Illegal Dumping,BROOKLYN,1
-2026-11-19,Illegal Parking,BRONX,9
-2026-11-19,Illegal Parking,BROOKLYN,26
-2026-11-19,Illegal Parking,MANHATTAN,5
-2026-11-19,Illegal Parking,QUEENS,23
-2026-11-19,Illegal Parking,STATEN ISLAND,1
-2026-11-19,Indoor Air Quality,BRONX,1
-2026-11-19,Indoor Air Quality,BROOKLYN,1
-2026-11-19,Indoor Air Quality,MANHATTAN,2
-2026-11-19,Indoor Air Quality,QUEENS,1
-2026-11-19,Lead,MANHATTAN,1
-2026-11-19,Maintenance or Facility,MANHATTAN,1
-2026-11-19,Noise,BROOKLYN,6
-2026-11-19,Noise,MANHATTAN,20
-2026-11-19,Noise,QUEENS,3
-2026-11-19,Noise - Commercial,BRONX,1
-2026-11-19,Noise - Commercial,BROOKLYN,4
-2026-11-19,Noise - Commercial,MANHATTAN,3
-2026-11-19,Noise - Commercial,QUEENS,2
-2026-11-19,Noise - Park,QUEENS,1
-2026-11-19,Noise - Residential,BRONX,24
-2026-11-19,Noise - Residential,BROOKLYN,20
-2026-11-19,Noise - Residential,MANHATTAN,14
-2026-11-19,Noise - Residential,QUEENS,20
-2026-11-19,Noise - Residential,STATEN ISLAND,2
-2026-11-19,Noise - Street/Sidewalk,BRONX,11
-2026-11-19,Noise - Street/Sidewalk,BROOKLYN,7
-2026-11-19,Noise - Street/Sidewalk,MANHATTAN,17
-2026-11-19,Noise - Street/Sidewalk,QUEENS,12
-2026-11-19,Noise - Street/Sidewalk,UNSPECIFIED,1
-2026-11-19,Noise - Vehicle,BRONX,1
-2026-11-19,Noise - Vehicle,BROOKLYN,4
-2026-11-19,Noise - Vehicle,MANHATTAN,22
-2026-11-19,Noise - Vehicle,QUEENS,1
-2026-11-19,Non-Emergency Police Matter,BROOKLYN,1
-2026-11-19,Non-Emergency Police Matter,MANHATTAN,1
-2026-11-19,Panhandling,MANHATTAN,3
-2026-11-19,Residential Disposal Complaint,BROOKLYN,1
-2026-11-19,Rodent,BRONX,1
-2026-11-19,Rodent,BROOKLYN,1
-2026-11-19,Sewer Maintenance,STATEN ISLAND,1
-2026-11-19,Sidewalk Condition,BROOKLYN,1
-2026-11-19,Smoking or Vaping,BRONX,1
-2026-11-19,Smoking or Vaping,BROOKLYN,1
-2026-11-19,Street Condition,BROOKLYN,1
-2026-11-19,Street Light Condition,BRONX,1
-2026-11-19,Street Light Condition,QUEENS,2
-2026-11-19,Street Light Condition,STATEN ISLAND,1
+2026-11-19,APPLIANCE,BRONX,39
+2026-11-19,APPLIANCE,BROOKLYN,31
+2026-11-19,APPLIANCE,MANHATTAN,19
+2026-11-19,APPLIANCE,QUEENS,16
+2026-11-19,APPLIANCE,STATEN ISLAND,2
+2026-11-19,Abandoned Bike,BROOKLYN,4
+2026-11-19,Abandoned Bike,MANHATTAN,3
+2026-11-19,Abandoned Bike,QUEENS,1
+2026-11-19,Abandoned Vehicle,BRONX,40
+2026-11-19,Abandoned Vehicle,BROOKLYN,98
+2026-11-19,Abandoned Vehicle,MANHATTAN,5
+2026-11-19,Abandoned Vehicle,QUEENS,86
+2026-11-19,Abandoned Vehicle,STATEN ISLAND,17
+2026-11-19,Air Quality,BRONX,3
+2026-11-19,Air Quality,BROOKLYN,11
+2026-11-19,Air Quality,MANHATTAN,11
+2026-11-19,Air Quality,QUEENS,9
+2026-11-19,Animal Facility - No Permit,BROOKLYN,2
+2026-11-19,Animal Facility - No Permit,MANHATTAN,1
+2026-11-19,Animal in a Park,BRONX,2
+2026-11-19,Animal in a Park,BROOKLYN,13
+2026-11-19,Animal in a Park,MANHATTAN,4
+2026-11-19,Animal in a Park,QUEENS,4
+2026-11-19,Animal in a Park,STATEN ISLAND,1
+2026-11-19,Animal-Abuse,BRONX,7
+2026-11-19,Animal-Abuse,BROOKLYN,9
+2026-11-19,Animal-Abuse,MANHATTAN,5
+2026-11-19,Animal-Abuse,QUEENS,6
+2026-11-19,Animal-Abuse,STATEN ISLAND,5
+2026-11-19,Asbestos,BRONX,1
+2026-11-19,Asbestos,BROOKLYN,2
+2026-11-19,Asbestos,MANHATTAN,1
+2026-11-19,BEST/Site Safety,BROOKLYN,2
+2026-11-19,BEST/Site Safety,MANHATTAN,1
+2026-11-19,Bench,BROOKLYN,1
+2026-11-19,Bike/Roller/Skate,BRONX,1
+2026-11-19,Bike/Roller/Skate,BROOKLYN,1
+2026-11-19,Bike/Roller/Skate,MANHATTAN,3
+2026-11-19,Blocked Driveway,BRONX,90
+2026-11-19,Blocked Driveway,BROOKLYN,238
+2026-11-19,Blocked Driveway,MANHATTAN,5
+2026-11-19,Blocked Driveway,QUEENS,212
+2026-11-19,Blocked Driveway,STATEN ISLAND,16
+2026-11-19,Boilers,BROOKLYN,5
+2026-11-19,Boilers,MANHATTAN,5
+2026-11-19,Bridge Condition,BROOKLYN,1
+2026-11-19,Bridge Condition,QUEENS,2
+2026-11-19,Broken Parking Meter,BRONX,4
+2026-11-19,Broken Parking Meter,BROOKLYN,3
+2026-11-19,Broken Parking Meter,MANHATTAN,2
+2026-11-19,Broken Parking Meter,QUEENS,4
+2026-11-19,Building/Use,BRONX,3
+2026-11-19,Building/Use,BROOKLYN,19
+2026-11-19,Building/Use,MANHATTAN,7
+2026-11-19,Building/Use,QUEENS,25
+2026-11-19,Building/Use,STATEN ISLAND,4
+2026-11-19,Bus Stop Shelter Complaint,BRONX,3
+2026-11-19,Bus Stop Shelter Complaint,BROOKLYN,1
+2026-11-19,Bus Stop Shelter Placement,BROOKLYN,1
+2026-11-19,Bus Stop Shelter Placement,MANHATTAN,2
+2026-11-19,Cannabis Retailer,BRONX,3
+2026-11-19,Cannabis Retailer,BROOKLYN,7
+2026-11-19,Cannabis Retailer,MANHATTAN,5
+2026-11-19,Cannabis Retailer,STATEN ISLAND,1
+2026-11-19,Commercial Disposal Complaint,BRONX,1
+2026-11-19,Commercial Disposal Complaint,MANHATTAN,2
+2026-11-19,Commercial Disposal Complaint,QUEENS,1
+2026-11-19,Construction Lead Dust,BROOKLYN,1
+2026-11-19,Construction Lead Dust,MANHATTAN,4
+2026-11-19,Consumer Complaint,BRONX,10
+2026-11-19,Consumer Complaint,BROOKLYN,14
+2026-11-19,Consumer Complaint,MANHATTAN,22
+2026-11-19,Consumer Complaint,QUEENS,15
+2026-11-19,Consumer Complaint,STATEN ISLAND,2
+2026-11-19,Curb Condition,BRONX,1
+2026-11-19,Curb Condition,BROOKLYN,17
+2026-11-19,Curb Condition,MANHATTAN,5
+2026-11-19,Curb Condition,QUEENS,15
+2026-11-19,Curb Condition,STATEN ISLAND,2
+2026-11-19,DOOR/WINDOW,BRONX,52
+2026-11-19,DOOR/WINDOW,BROOKLYN,67
+2026-11-19,DOOR/WINDOW,MANHATTAN,46
+2026-11-19,DOOR/WINDOW,QUEENS,18
+2026-11-19,DOOR/WINDOW,STATEN ISLAND,1
+2026-11-19,Damaged Tree,BRONX,4
+2026-11-19,Damaged Tree,BROOKLYN,12
+2026-11-19,Damaged Tree,MANHATTAN,1
+2026-11-19,Damaged Tree,QUEENS,17
+2026-11-19,Damaged Tree,STATEN ISLAND,1
+2026-11-19,Damaged Tree,UNSPECIFIED,2
+2026-11-19,Day Care,BRONX,3
+2026-11-19,Day Care,BROOKLYN,5
+2026-11-19,Day Care,MANHATTAN,1
+2026-11-19,Dead Animal,BRONX,2
+2026-11-19,Dead Animal,BROOKLYN,14
+2026-11-19,Dead Animal,MANHATTAN,1
+2026-11-19,Dead Animal,QUEENS,16
+2026-11-19,Dead Animal,STATEN ISLAND,5
+2026-11-19,Dead/Dying Tree,BROOKLYN,4
+2026-11-19,Dead/Dying Tree,MANHATTAN,1
+2026-11-19,Dead/Dying Tree,QUEENS,7
+2026-11-19,Dead/Dying Tree,UNSPECIFIED,1
+2026-11-19,Derelict Vehicles,BRONX,4
+2026-11-19,Derelict Vehicles,BROOKLYN,9
+2026-11-19,Derelict Vehicles,MANHATTAN,5
+2026-11-19,Derelict Vehicles,QUEENS,10
+2026-11-19,Dirty Condition,BRONX,28
+2026-11-19,Dirty Condition,BROOKLYN,56
+2026-11-19,Dirty Condition,MANHATTAN,46
+2026-11-19,Dirty Condition,QUEENS,57
+2026-11-19,Dirty Condition,STATEN ISLAND,11
+2026-11-19,Disorderly Youth,QUEENS,1
+2026-11-19,Drinking,BRONX,2
+2026-11-19,Drinking,BROOKLYN,4
+2026-11-19,Drinking,MANHATTAN,3
+2026-11-19,Drinking,QUEENS,5
+2026-11-19,Drinking Water,BRONX,1
+2026-11-19,Drinking Water,BROOKLYN,1
+2026-11-19,Drinking Water,MANHATTAN,1
+2026-11-19,Drug Activity,BRONX,3
+2026-11-19,Drug Activity,BROOKLYN,2
+2026-11-19,Drug Activity,MANHATTAN,5
+2026-11-19,Drug Activity,QUEENS,8
+2026-11-19,Dumpster Complaint,BRONX,1
+2026-11-19,Dumpster Complaint,BROOKLYN,2
+2026-11-19,Dumpster Complaint,MANHATTAN,1
+2026-11-19,Dumpster Complaint,QUEENS,4
+2026-11-19,Dumpster Complaint,STATEN ISLAND,1
+2026-11-19,ELECTRIC,BRONX,32
+2026-11-19,ELECTRIC,BROOKLYN,41
+2026-11-19,ELECTRIC,MANHATTAN,19
+2026-11-19,ELECTRIC,QUEENS,22
+2026-11-19,ELECTRIC,STATEN ISLAND,1
+2026-11-19,ELEVATOR,BRONX,1
+2026-11-19,ELEVATOR,BROOKLYN,3
+2026-11-19,ELEVATOR,QUEENS,1
+2026-11-19,Electrical,BRONX,1
+2026-11-19,Electrical,BROOKLYN,1
+2026-11-19,Electrical,MANHATTAN,1
+2026-11-19,Electrical,QUEENS,4
+2026-11-19,Electrical,STATEN ISLAND,1
+2026-11-19,Elevator,BRONX,18
+2026-11-19,Elevator,BROOKLYN,5
+2026-11-19,Elevator,MANHATTAN,10
+2026-11-19,Elevator,QUEENS,11
+2026-11-19,Emergency Response Team (ERT),BROOKLYN,5
+2026-11-19,Emergency Response Team (ERT),MANHATTAN,2
+2026-11-19,Encampment,BRONX,12
+2026-11-19,Encampment,BROOKLYN,24
+2026-11-19,Encampment,MANHATTAN,147
+2026-11-19,Encampment,QUEENS,16
+2026-11-19,Encampment,STATEN ISLAND,3
+2026-11-19,FLOORING/STAIRS,BRONX,33
+2026-11-19,FLOORING/STAIRS,BROOKLYN,28
+2026-11-19,FLOORING/STAIRS,MANHATTAN,37
+2026-11-19,FLOORING/STAIRS,QUEENS,7
+2026-11-19,FLOORING/STAIRS,STATEN ISLAND,6
+2026-11-19,Ferry Inquiry,UNSPECIFIED,2
+2026-11-19,Food Establishment,BRONX,3
+2026-11-19,Food Establishment,BROOKLYN,12
+2026-11-19,Food Establishment,MANHATTAN,20
+2026-11-19,Food Establishment,QUEENS,13
+2026-11-19,Food Establishment,STATEN ISLAND,1
+2026-11-19,Food Establishment,UNSPECIFIED,1
+2026-11-19,Food Poisoning,BROOKLYN,1
+2026-11-19,Food Poisoning,MANHATTAN,1
+2026-11-19,Food Poisoning,QUEENS,2
+2026-11-19,For Hire Vehicle Complaint,BRONX,1
+2026-11-19,For Hire Vehicle Complaint,BROOKLYN,26
+2026-11-19,For Hire Vehicle Complaint,MANHATTAN,33
+2026-11-19,For Hire Vehicle Complaint,QUEENS,12
+2026-11-19,For Hire Vehicle Complaint,UNSPECIFIED,4
+2026-11-19,For Hire Vehicle Report,BROOKLYN,5
+2026-11-19,For Hire Vehicle Report,MANHATTAN,1
+2026-11-19,For Hire Vehicle Report,STATEN ISLAND,1
+2026-11-19,GENERAL,BRONX,33
+2026-11-19,GENERAL,BROOKLYN,42
+2026-11-19,GENERAL,MANHATTAN,43
+2026-11-19,GENERAL,QUEENS,30
+2026-11-19,GENERAL,STATEN ISLAND,1
+2026-11-19,General Construction/Plumbing,BRONX,17
+2026-11-19,General Construction/Plumbing,BROOKLYN,63
+2026-11-19,General Construction/Plumbing,MANHATTAN,33
+2026-11-19,General Construction/Plumbing,QUEENS,25
+2026-11-19,General Construction/Plumbing,STATEN ISLAND,5
+2026-11-19,Graffiti,BRONX,12
+2026-11-19,Graffiti,BROOKLYN,17
+2026-11-19,Graffiti,MANHATTAN,34
+2026-11-19,Graffiti,QUEENS,1
+2026-11-19,Green Infrastructure,BRONX,1
+2026-11-19,Green Infrastructure,QUEENS,1
+2026-11-19,HEAT/HOT WATER,BRONX,439
+2026-11-19,HEAT/HOT WATER,BROOKLYN,364
+2026-11-19,HEAT/HOT WATER,MANHATTAN,299
+2026-11-19,HEAT/HOT WATER,QUEENS,168
+2026-11-19,HEAT/HOT WATER,STATEN ISLAND,7
+2026-11-19,Hazardous Material,BRONX,3
+2026-11-19,Hazardous Material,BROOKLYN,8
+2026-11-19,Hazardous Material,MANHATTAN,2
+2026-11-19,Hazardous Material,QUEENS,3
+2026-11-19,Hazardous Material,STATEN ISLAND,1
+2026-11-19,Highway Condition,BRONX,2
+2026-11-19,Highway Condition,BROOKLYN,4
+2026-11-19,Highway Condition,MANHATTAN,1
+2026-11-19,Highway Condition,QUEENS,6
+2026-11-19,Highway Condition,STATEN ISLAND,3
+2026-11-19,Highway Sign - Damaged,QUEENS,2
+2026-11-19,Homeless Person Assistance,BRONX,5
+2026-11-19,Homeless Person Assistance,BROOKLYN,11
+2026-11-19,Homeless Person Assistance,MANHATTAN,80
+2026-11-19,Homeless Person Assistance,QUEENS,12
+2026-11-19,Homeless Person Assistance,STATEN ISLAND,1
+2026-11-19,Illegal Dumping,BRONX,28
+2026-11-19,Illegal Dumping,BROOKLYN,35
+2026-11-19,Illegal Dumping,MANHATTAN,19
+2026-11-19,Illegal Dumping,QUEENS,31
+2026-11-19,Illegal Dumping,STATEN ISLAND,7
+2026-11-19,Illegal Fireworks,BROOKLYN,2
+2026-11-19,Illegal Fireworks,QUEENS,2
+2026-11-19,Illegal Parking,BRONX,349
+2026-11-19,Illegal Parking,BROOKLYN,1127
+2026-11-19,Illegal Parking,MANHATTAN,269
+2026-11-19,Illegal Parking,QUEENS,529
+2026-11-19,Illegal Parking,STATEN ISLAND,40
+2026-11-19,Illegal Posting,BRONX,3
+2026-11-19,Illegal Posting,MANHATTAN,4
+2026-11-19,Illegal Posting,QUEENS,8
+2026-11-19,Illegal Tree Damage,BRONX,2
+2026-11-19,Illegal Tree Damage,BROOKLYN,6
+2026-11-19,Illegal Tree Damage,MANHATTAN,1
+2026-11-19,Illegal Tree Damage,QUEENS,9
+2026-11-19,Indoor Air Quality,BRONX,8
+2026-11-19,Indoor Air Quality,BROOKLYN,13
+2026-11-19,Indoor Air Quality,MANHATTAN,17
+2026-11-19,Indoor Air Quality,QUEENS,17
+2026-11-19,Indoor Sewage,BROOKLYN,3
+2026-11-19,Industrial Waste,BROOKLYN,2
+2026-11-19,Industrial Waste,QUEENS,3
+2026-11-19,Investigations and Discipline (IAD),STATEN ISLAND,2
+2026-11-19,Lead,BRONX,3
+2026-11-19,Lead,BROOKLYN,22
+2026-11-19,Lead,MANHATTAN,15
+2026-11-19,Lead,QUEENS,16
+2026-11-19,Lead,STATEN ISLAND,4
+2026-11-19,LinkNYC,MANHATTAN,1
+2026-11-19,Litter Basket Complaint,BRONX,1
+2026-11-19,Litter Basket Complaint,BROOKLYN,2
+2026-11-19,Litter Basket Complaint,MANHATTAN,2
+2026-11-19,Litter Basket Complaint,QUEENS,1
+2026-11-19,Litter Basket Request,BRONX,1
+2026-11-19,Litter Basket Request,BROOKLYN,7
+2026-11-19,Litter Basket Request,MANHATTAN,6
+2026-11-19,Litter Basket Request,QUEENS,2
+2026-11-19,Lost Property,MANHATTAN,17
+2026-11-19,Lost Property,QUEENS,5
+2026-11-19,Lot Condition,BROOKLYN,2
+2026-11-19,Maintenance or Facility,BRONX,10
+2026-11-19,Maintenance or Facility,BROOKLYN,12
+2026-11-19,Maintenance or Facility,MANHATTAN,17
+2026-11-19,Maintenance or Facility,QUEENS,19
+2026-11-19,Maintenance or Facility,STATEN ISLAND,1
+2026-11-19,Missed Collection,BRONX,13
+2026-11-19,Missed Collection,BROOKLYN,33
+2026-11-19,Missed Collection,MANHATTAN,7
+2026-11-19,Missed Collection,QUEENS,44
+2026-11-19,Missed Collection,STATEN ISLAND,22
+2026-11-19,Mobile Food Vendor,MANHATTAN,4
+2026-11-19,Mobile Food Vendor,QUEENS,4
+2026-11-19,New Tree Request,BRONX,1
+2026-11-19,New Tree Request,BROOKLYN,2
+2026-11-19,New Tree Request,QUEENS,2
+2026-11-19,Noise,BRONX,7
+2026-11-19,Noise,BROOKLYN,81
+2026-11-19,Noise,MANHATTAN,102
+2026-11-19,Noise,QUEENS,35
+2026-11-19,Noise,STATEN ISLAND,5
+2026-11-19,Noise - Commercial,BRONX,19
+2026-11-19,Noise - Commercial,BROOKLYN,62
+2026-11-19,Noise - Commercial,MANHATTAN,65
+2026-11-19,Noise - Commercial,QUEENS,26
+2026-11-19,Noise - Helicopter,BROOKLYN,2
+2026-11-19,Noise - Helicopter,MANHATTAN,6
+2026-11-19,Noise - House of Worship,BRONX,1
+2026-11-19,Noise - House of Worship,MANHATTAN,1
+2026-11-19,Noise - Park,BROOKLYN,3
+2026-11-19,Noise - Park,MANHATTAN,4
+2026-11-19,Noise - Park,QUEENS,7
+2026-11-19,Noise - Residential,BRONX,193
+2026-11-19,Noise - Residential,BROOKLYN,308
+2026-11-19,Noise - Residential,MANHATTAN,130
+2026-11-19,Noise - Residential,QUEENS,130
+2026-11-19,Noise - Residential,STATEN ISLAND,28
+2026-11-19,Noise - Street/Sidewalk,BRONX,58
+2026-11-19,Noise - Street/Sidewalk,BROOKLYN,87
+2026-11-19,Noise - Street/Sidewalk,MANHATTAN,173
+2026-11-19,Noise - Street/Sidewalk,QUEENS,47
+2026-11-19,Noise - Street/Sidewalk,STATEN ISLAND,4
+2026-11-19,Noise - Vehicle,BRONX,14
+2026-11-19,Noise - Vehicle,BROOKLYN,28
+2026-11-19,Noise - Vehicle,MANHATTAN,40
+2026-11-19,Noise - Vehicle,QUEENS,58
+2026-11-19,Noise - Vehicle,STATEN ISLAND,2
+2026-11-19,Non-Emergency Police Matter,BRONX,10
+2026-11-19,Non-Emergency Police Matter,BROOKLYN,17
+2026-11-19,Non-Emergency Police Matter,MANHATTAN,19
+2026-11-19,Non-Emergency Police Matter,QUEENS,15
+2026-11-19,Non-Emergency Police Matter,STATEN ISLAND,1
+2026-11-19,Non-Residential Heat,MANHATTAN,2
+2026-11-19,OUTSIDE BUILDING,BRONX,1
+2026-11-19,OUTSIDE BUILDING,BROOKLYN,1
+2026-11-19,OUTSIDE BUILDING,MANHATTAN,1
+2026-11-19,OUTSIDE BUILDING,STATEN ISLAND,1
+2026-11-19,Obstruction,BRONX,9
+2026-11-19,Obstruction,BROOKLYN,17
+2026-11-19,Obstruction,MANHATTAN,11
+2026-11-19,Obstruction,QUEENS,15
+2026-11-19,Obstruction,STATEN ISLAND,6
+2026-11-19,Outdoor Dining,BROOKLYN,11
+2026-11-19,Outdoor Dining,MANHATTAN,4
+2026-11-19,Outdoor Dining,QUEENS,1
+2026-11-19,Overgrown Tree/Branches,BRONX,2
+2026-11-19,Overgrown Tree/Branches,BROOKLYN,11
+2026-11-19,Overgrown Tree/Branches,QUEENS,16
+2026-11-19,Overgrown Tree/Branches,STATEN ISLAND,3
+2026-11-19,PAINT/PLASTER,BRONX,75
+2026-11-19,PAINT/PLASTER,BROOKLYN,92
+2026-11-19,PAINT/PLASTER,MANHATTAN,62
+2026-11-19,PAINT/PLASTER,QUEENS,22
+2026-11-19,PAINT/PLASTER,STATEN ISLAND,14
+2026-11-19,PLUMBING,BRONX,92
+2026-11-19,PLUMBING,BROOKLYN,83
+2026-11-19,PLUMBING,MANHATTAN,73
+2026-11-19,PLUMBING,QUEENS,33
+2026-11-19,PLUMBING,STATEN ISLAND,5
+2026-11-19,Panhandling,BRONX,3
+2026-11-19,Panhandling,BROOKLYN,15
+2026-11-19,Panhandling,MANHATTAN,26
+2026-11-19,Panhandling,QUEENS,4
+2026-11-19,Plumbing,BRONX,1
+2026-11-19,Plumbing,BROOKLYN,3
+2026-11-19,Plumbing,MANHATTAN,3
+2026-11-19,Plumbing,QUEENS,1
+2026-11-19,Posting Advertisement,QUEENS,1
+2026-11-19,Real Time Enforcement,BRONX,1
+2026-11-19,Real Time Enforcement,BROOKLYN,12
+2026-11-19,Real Time Enforcement,MANHATTAN,15
+2026-11-19,Real Time Enforcement,QUEENS,6
+2026-11-19,Residential Disposal Complaint,BRONX,1
+2026-11-19,Residential Disposal Complaint,BROOKLYN,11
+2026-11-19,Residential Disposal Complaint,MANHATTAN,11
+2026-11-19,Residential Disposal Complaint,QUEENS,7
+2026-11-19,Residential Disposal Complaint,STATEN ISLAND,3
+2026-11-19,Rodent,BRONX,7
+2026-11-19,Rodent,BROOKLYN,26
+2026-11-19,Rodent,MANHATTAN,26
+2026-11-19,Rodent,QUEENS,10
+2026-11-19,Rodent,STATEN ISLAND,3
+2026-11-19,Root/Sewer/Sidewalk Condition,BRONX,1
+2026-11-19,Root/Sewer/Sidewalk Condition,BROOKLYN,11
+2026-11-19,Root/Sewer/Sidewalk Condition,MANHATTAN,3
+2026-11-19,Root/Sewer/Sidewalk Condition,QUEENS,7
+2026-11-19,Root/Sewer/Sidewalk Condition,STATEN ISLAND,7
+2026-11-19,SAFETY,BRONX,18
+2026-11-19,SAFETY,BROOKLYN,13
+2026-11-19,SAFETY,MANHATTAN,9
+2026-11-19,SAFETY,QUEENS,12
+2026-11-19,Sanitation Worker or Vehicle Complaint,BROOKLYN,1
+2026-11-19,Sanitation Worker or Vehicle Complaint,MANHATTAN,3
+2026-11-19,Sanitation Worker or Vehicle Complaint,QUEENS,8
+2026-11-19,Sanitation Worker or Vehicle Complaint,STATEN ISLAND,1
+2026-11-19,Sewer Maintenance,BRONX,7
+2026-11-19,Sewer Maintenance,BROOKLYN,20
+2026-11-19,Sewer Maintenance,MANHATTAN,10
+2026-11-19,Sewer Maintenance,QUEENS,35
+2026-11-19,Sewer Maintenance,STATEN ISLAND,7
+2026-11-19,Sidewalk Condition,BRONX,13
+2026-11-19,Sidewalk Condition,BROOKLYN,30
+2026-11-19,Sidewalk Condition,MANHATTAN,25
+2026-11-19,Sidewalk Condition,QUEENS,35
+2026-11-19,Sidewalk Condition,STATEN ISLAND,9
+2026-11-19,Smoking or Vaping,BRONX,6
+2026-11-19,Smoking or Vaping,BROOKLYN,13
+2026-11-19,Smoking or Vaping,MANHATTAN,7
+2026-11-19,Smoking or Vaping,QUEENS,7
+2026-11-19,Special Projects Inspection Team (SPIT),BRONX,2
+2026-11-19,Special Projects Inspection Team (SPIT),BROOKLYN,2
+2026-11-19,Special Projects Inspection Team (SPIT),MANHATTAN,4
+2026-11-19,Special Projects Inspection Team (SPIT),STATEN ISLAND,1
+2026-11-19,Special Projects Inspection Team (SPIT),UNSPECIFIED,1
+2026-11-19,Street Condition,BRONX,28
+2026-11-19,Street Condition,BROOKLYN,40
+2026-11-19,Street Condition,MANHATTAN,43
+2026-11-19,Street Condition,QUEENS,69
+2026-11-19,Street Condition,STATEN ISLAND,11
+2026-11-19,Street Light Condition,BRONX,47
+2026-11-19,Street Light Condition,BROOKLYN,37
+2026-11-19,Street Light Condition,MANHATTAN,32
+2026-11-19,Street Light Condition,QUEENS,28
+2026-11-19,Street Light Condition,STATEN ISLAND,42
+2026-11-19,Street Light Condition,UNSPECIFIED,2
+2026-11-19,Street Sign - Damaged,BRONX,3
+2026-11-19,Street Sign - Damaged,BROOKLYN,9
+2026-11-19,Street Sign - Damaged,MANHATTAN,1
+2026-11-19,Street Sign - Damaged,QUEENS,1
 2026-11-19,Street Sign - Damaged,STATEN ISLAND,1
-2026-11-19,Street Sign - Missing,MANHATTAN,1
-2026-11-19,Taxi Complaint,QUEENS,1
-2026-11-19,Traffic,BROOKLYN,2
-2026-11-19,Traffic Signal Condition,BROOKLYN,1
-2026-11-19,Water Maintenance,BROOKLYN,3
-2026-11-19,Water Maintenance,MANHATTAN,1
+2026-11-19,Street Sign - Dangling,BROOKLYN,2
+2026-11-19,Street Sign - Dangling,MANHATTAN,4
+2026-11-19,Street Sign - Dangling,QUEENS,4
+2026-11-19,Street Sign - Dangling,STATEN ISLAND,1
+2026-11-19,Street Sign - Missing,BRONX,3
+2026-11-19,Street Sign - Missing,BROOKLYN,9
+2026-11-19,Street Sign - Missing,MANHATTAN,4
+2026-11-19,Street Sign - Missing,QUEENS,1
+2026-11-19,Street Sign - Missing,STATEN ISLAND,1
+2026-11-19,Street Sweeping Complaint,BRONX,11
+2026-11-19,Street Sweeping Complaint,BROOKLYN,42
+2026-11-19,Street Sweeping Complaint,MANHATTAN,9
+2026-11-19,Street Sweeping Complaint,QUEENS,17
+2026-11-19,Tattooing,BRONX,1
+2026-11-19,Taxi Complaint,BROOKLYN,1
+2026-11-19,Taxi Complaint,MANHATTAN,12
+2026-11-19,Taxi Complaint,QUEENS,11
+2026-11-19,Taxi Complaint,UNSPECIFIED,4
+2026-11-19,Taxi Compliment,MANHATTAN,1
+2026-11-19,Taxi Report,MANHATTAN,1
+2026-11-19,Tobacco or Non-Tobacco Sale,BROOKLYN,2
+2026-11-19,Traffic,BRONX,2
+2026-11-19,Traffic,BROOKLYN,11
+2026-11-19,Traffic,MANHATTAN,68
+2026-11-19,Traffic,QUEENS,17
+2026-11-19,Traffic,STATEN ISLAND,10
+2026-11-19,Traffic Signal Condition,BRONX,9
+2026-11-19,Traffic Signal Condition,BROOKLYN,38
+2026-11-19,Traffic Signal Condition,MANHATTAN,23
+2026-11-19,Traffic Signal Condition,QUEENS,29
+2026-11-19,Traffic Signal Condition,STATEN ISLAND,6
+2026-11-19,UNSANITARY CONDITION,BRONX,135
+2026-11-19,UNSANITARY CONDITION,BROOKLYN,149
+2026-11-19,UNSANITARY CONDITION,MANHATTAN,89
+2026-11-19,UNSANITARY CONDITION,QUEENS,55
+2026-11-19,UNSANITARY CONDITION,STATEN ISLAND,11
+2026-11-19,Unleashed Dog,BRONX,2
+2026-11-19,Unleashed Dog,MANHATTAN,1
+2026-11-19,Unleashed Dog,QUEENS,1
+2026-11-19,Unsanitary Animal Pvt Property,BRONX,1
+2026-11-19,Unsanitary Animal Pvt Property,BROOKLYN,2
+2026-11-19,Unsanitary Animal Pvt Property,QUEENS,2
+2026-11-19,Unsanitary Animal Pvt Property,STATEN ISLAND,1
+2026-11-19,Unsanitary Pigeon Condition,BROOKLYN,1
+2026-11-19,Unsanitary Pigeon Condition,MANHATTAN,2
+2026-11-19,Unsanitary Pigeon Condition,QUEENS,2
+2026-11-19,Urinating in Public,BROOKLYN,1
+2026-11-19,Vendor Enforcement,BRONX,8
+2026-11-19,Vendor Enforcement,BROOKLYN,5
+2026-11-19,Vendor Enforcement,MANHATTAN,82
+2026-11-19,Vendor Enforcement,QUEENS,12
+2026-11-19,Violation of Park Rules,BROOKLYN,2
+2026-11-19,Violation of Park Rules,MANHATTAN,6
+2026-11-19,Violation of Park Rules,QUEENS,4
+2026-11-19,WATER LEAK,BRONX,46
+2026-11-19,WATER LEAK,BROOKLYN,56
+2026-11-19,WATER LEAK,MANHATTAN,30
+2026-11-19,WATER LEAK,QUEENS,16
+2026-11-19,WATER LEAK,STATEN ISLAND,3
+2026-11-19,Waste Water Treatment Plant,QUEENS,1
+2026-11-19,Water Conservation,BRONX,1
+2026-11-19,Water Conservation,BROOKLYN,1
+2026-11-19,Water Conservation,MANHATTAN,1
+2026-11-19,Water Conservation,QUEENS,3
+2026-11-19,Water Conservation,STATEN ISLAND,1
+2026-11-19,Water Maintenance,BRONX,21
+2026-11-19,Water Maintenance,BROOKLYN,81
+2026-11-19,Water Maintenance,MANHATTAN,27
+2026-11-19,Water Maintenance,QUEENS,33
+2026-11-19,Water Maintenance,STATEN ISLAND,20
+2026-11-19,Water Quality,BRONX,2
+2026-11-19,Water Quality,MANHATTAN,1
+2026-11-19,Water Quality,STATEN ISLAND,1
+2026-11-19,Wayfinding,BROOKLYN,1
+2026-11-19,Wayfinding,MANHATTAN,1
+2026-11-19,Window Guard,BROOKLYN,1
+2026-11-19,Wood Pile Remaining,QUEENS,2
+2026-11-20,Abandoned Vehicle,BROOKLYN,2
+2026-11-20,Abandoned Vehicle,QUEENS,2
+2026-11-20,Animal-Abuse,BROOKLYN,1
+2026-11-20,Blocked Driveway,BRONX,6
+2026-11-20,Blocked Driveway,BROOKLYN,6
+2026-11-20,Blocked Driveway,QUEENS,11
+2026-11-20,Cannabis Retailer,BRONX,1
+2026-11-20,Cannabis Retailer,QUEENS,1
+2026-11-20,Consumer Complaint,BROOKLYN,2
+2026-11-20,Damaged Tree,BRONX,1
+2026-11-20,Dead/Dying Tree,BRONX,1
+2026-11-20,Dirty Condition,BRONX,2
+2026-11-20,Drinking,BRONX,1
+2026-11-20,Drinking,QUEENS,2
+2026-11-20,Drug Activity,QUEENS,1
+2026-11-20,Encampment,BRONX,1
+2026-11-20,Encampment,BROOKLYN,1
+2026-11-20,Food Establishment,BROOKLYN,1
+2026-11-20,Food Establishment,MANHATTAN,1
+2026-11-20,For Hire Vehicle Complaint,BROOKLYN,1
+2026-11-20,Homeless Person Assistance,BRONX,1
+2026-11-20,Illegal Dumping,BRONX,2
+2026-11-20,Illegal Dumping,BROOKLYN,1
+2026-11-20,Illegal Parking,BRONX,17
+2026-11-20,Illegal Parking,BROOKLYN,37
+2026-11-20,Illegal Parking,MANHATTAN,10
+2026-11-20,Illegal Parking,QUEENS,32
+2026-11-20,Illegal Parking,STATEN ISLAND,3
+2026-11-20,Illegal Tree Damage,BRONX,1
+2026-11-20,Illegal Tree Damage,BROOKLYN,1
+2026-11-20,Indoor Air Quality,BROOKLYN,1
+2026-11-20,Indoor Air Quality,QUEENS,1
+2026-11-20,Lead,BROOKLYN,1
+2026-11-20,Litter Basket Complaint,QUEENS,2
+2026-11-20,Lost Property,MANHATTAN,1
+2026-11-20,Mobile Food Vendor,MANHATTAN,1
+2026-11-20,Noise,BRONX,1
+2026-11-20,Noise,BROOKLYN,9
+2026-11-20,Noise,MANHATTAN,12
+2026-11-20,Noise,QUEENS,4
+2026-11-20,Noise - Commercial,BROOKLYN,10
+2026-11-20,Noise - Commercial,MANHATTAN,10
+2026-11-20,Noise - Commercial,QUEENS,4
+2026-11-20,Noise - Park,QUEENS,1
+2026-11-20,Noise - Residential,BRONX,28
+2026-11-20,Noise - Residential,BROOKLYN,29
+2026-11-20,Noise - Residential,MANHATTAN,21
+2026-11-20,Noise - Residential,QUEENS,21
+2026-11-20,Noise - Residential,STATEN ISLAND,5
+2026-11-20,Noise - Street/Sidewalk,BRONX,9
+2026-11-20,Noise - Street/Sidewalk,BROOKLYN,12
+2026-11-20,Noise - Street/Sidewalk,MANHATTAN,17
+2026-11-20,Noise - Street/Sidewalk,QUEENS,9
+2026-11-20,Noise - Vehicle,BRONX,1
+2026-11-20,Noise - Vehicle,BROOKLYN,1
+2026-11-20,Noise - Vehicle,MANHATTAN,5
+2026-11-20,Noise - Vehicle,QUEENS,3
+2026-11-20,Non-Emergency Police Matter,BRONX,1
+2026-11-20,Non-Residential Heat,BROOKLYN,1
+2026-11-20,Obstruction,BROOKLYN,1
+2026-11-20,Overgrown Tree/Branches,BRONX,1
+2026-11-20,Overgrown Tree/Branches,QUEENS,1
+2026-11-20,Panhandling,MANHATTAN,1
+2026-11-20,Public Toilet,BROOKLYN,1
+2026-11-20,Rodent,BROOKLYN,3
+2026-11-20,Sewer Maintenance,MANHATTAN,1
+2026-11-20,Smoking or Vaping,QUEENS,1
+2026-11-20,Street Condition,QUEENS,6
+2026-11-20,Street Light Condition,BRONX,1
+2026-11-20,Street Light Condition,BROOKLYN,3
+2026-11-20,Traffic,BROOKLYN,1
+2026-11-20,Traffic Signal Condition,QUEENS,2
+2026-11-20,Violation of Park Rules,QUEENS,1
+2026-11-20,Water Maintenance,BROOKLYN,1
