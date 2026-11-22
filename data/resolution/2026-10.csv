@@ -4046,19 +4046,19 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-10-31,DHS,Homeless Person Assistance,90,90,69,89,90,8.93,30.55
 2026-10-31,DOB,Boilers,8,8,2,2,5,114.86,393.58
 2026-10-31,DOB,Borough Office,1,1,1,1,1,0.0,0.0
-2026-10-31,DOB,Building/Use,44,44,37,38,38,0.0,298.83
+2026-10-31,DOB,Building/Use,44,44,36,37,37,0.0,350.46
 2026-10-31,DOB,Electrical,4,4,0,0,4,136.03,159.17
 2026-10-31,DOB,Elevator,45,45,22,22,36,80.17,340.35
 2026-10-31,DOB,Emergency Response Team (ERT),23,23,10,13,17,34.76,204.96
-2026-10-31,DOB,General Construction/Plumbing,59,59,26,38,47,35.57,239.37
+2026-10-31,DOB,General Construction/Plumbing,59,59,24,36,45,36.74,421.24
 2026-10-31,DOB,Investigations and Discipline (IAD),3,3,0,0,1,219.3,284.62
 2026-10-31,DOB,Plumbing,5,5,1,2,2,222.49,371.94
 2026-10-31,DOB,Real Time Enforcement,15,15,0,8,15,45.24,98.67
-2026-10-31,DOB,Special Projects Inspection Team (SPIT),10,10,7,8,8,0.0,306.11
+2026-10-31,DOB,Special Projects Inspection Team (SPIT),10,10,7,8,8,0.0,315.71
 2026-10-31,DOHMH,Beach/Pool/Sauna Complaint,1,0,0,0,0,,
 2026-10-31,DOHMH,Construction Lead Dust,2,0,0,0,0,,
 2026-10-31,DOHMH,Cooling Tower,1,1,0,0,0,310.62,310.62
-2026-10-31,DOHMH,Drinking Water,3,1,0,0,0,210.68,210.68
+2026-10-31,DOHMH,Drinking Water,3,3,0,0,0,471.58,479.21
 2026-10-31,DOHMH,Food Establishment,38,1,0,0,0,290.47,290.47
 2026-10-31,DOHMH,Food Poisoning,2,1,0,0,1,86.01,86.01
 2026-10-31,DOHMH,Illegal Animal Kept as Pet,2,1,0,0,0,393.39,393.39
@@ -4068,7 +4068,7 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-10-31,DOHMH,Mold,3,3,0,2,3,69.55,75.81
 2026-10-31,DOHMH,Mosquitoes,1,1,1,1,1,0.24,0.24
 2026-10-31,DOHMH,Non-Residential Heat,1,0,0,0,0,,
-2026-10-31,DOHMH,Rodent,48,33,0,2,19,135.49,387.48
+2026-10-31,DOHMH,Rodent,48,36,0,2,19,152.1,423.65
 2026-10-31,DOHMH,Smoking or Vaping,18,1,0,0,0,237.08,237.08
 2026-10-31,DOHMH,Standing Water,1,0,0,0,0,,
 2026-10-31,DOHMH,Tobacco or Non-Tobacco Sale,2,0,0,0,0,,
@@ -4085,15 +4085,15 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-10-31,DOT,Outdoor Dining,11,9,0,1,1,255.93,443.03
 2026-10-31,DOT,Sidewalk Condition,36,30,1,5,25,112.48,235.19
 2026-10-31,DOT,Street Condition,134,128,31,75,118,51.3,140.18
-2026-10-31,DOT,Street Light Condition,75,27,2,4,12,212.2,277.94
+2026-10-31,DOT,Street Light Condition,75,36,2,4,12,239.19,382.92
 2026-10-31,DOT,Street Sign - Damaged,12,8,0,1,6,122.64,241.22
 2026-10-31,DOT,Street Sign - Dangling,3,3,0,0,2,136.31,255.14
 2026-10-31,DOT,Street Sign - Missing,5,4,0,1,4,106.04,118.82
 2026-10-31,DOT,Traffic Signal Condition,86,86,71,81,85,2.09,33.08
 2026-10-31,DPR,Animal in a Park,14,14,12,12,12,2.16,148.11
-2026-10-31,DPR,Damaged Tree,27,13,0,6,7,98.52,403.05
+2026-10-31,DPR,Damaged Tree,27,14,0,6,7,156.12,424.61
 2026-10-31,DPR,Dead/Dying Tree,10,3,0,0,2,135.66,367.32
-2026-10-31,DPR,Illegal Tree Damage,11,4,0,1,1,210.3,217.13
+2026-10-31,DPR,Illegal Tree Damage,11,5,0,1,1,211.76,379.13
 2026-10-31,DPR,Maintenance or Facility,44,19,0,6,12,115.67,224.01
 2026-10-31,DPR,New Tree Request,1,0,0,0,0,,
 2026-10-31,DPR,Overgrown Tree/Branches,46,5,0,2,3,120.36,294.37
@@ -4114,13 +4114,13 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-10-31,DSNY,Missed Collection,99,99,13,50,97,64.61,112.78
 2026-10-31,DSNY,Obstruction,40,40,2,21,38,52.87,118.75
 2026-10-31,DSNY,Recycling Basket Complaint,1,1,0,0,1,145.35,145.35
-2026-10-31,DSNY,Residential Disposal Complaint,26,24,0,10,23,93.35,136.62
+2026-10-31,DSNY,Residential Disposal Complaint,26,25,0,10,23,93.62,143.49
 2026-10-31,DSNY,Sanitation Worker or Vehicle Complaint,4,4,1,2,3,87.13,186.29
 2026-10-31,DSNY,Street Sweeping Complaint,10,10,1,7,10,48.1,123.0
 2026-10-31,DSNY,Vendor Enforcement,49,49,49,49,49,0.34,0.51
 2026-10-31,EDC,Noise - Helicopter,1,0,0,0,0,,
-2026-10-31,HPD,APPLIANCE,45,29,0,7,21,116.0,316.92
-2026-10-31,HPD,DOOR/WINDOW,92,56,1,12,35,134.61,439.26
+2026-10-31,HPD,APPLIANCE,45,30,0,7,21,117.6,381.67
+2026-10-31,HPD,DOOR/WINDOW,92,58,1,12,35,140.63,441.69
 2026-10-31,HPD,ELECTRIC,96,69,4,25,40,116.0,379.99
 2026-10-31,HPD,ELEVATOR,10,5,0,1,4,112.07,152.13
 2026-10-31,HPD,FLOORING/STAIRS,37,26,1,6,11,180.43,452.49
@@ -4128,9 +4128,9 @@ day,agency,complaint_type,n,closed,closed_1d,closed_3d,closed_7d,p50_hours,p90_h
 2026-10-31,HPD,HEAT/HOT WATER,866,788,261,772,788,38.26,56.69
 2026-10-31,HPD,OUTSIDE BUILDING,3,2,0,1,1,217.13,353.73
 2026-10-31,HPD,PAINT/PLASTER,108,79,1,15,53,119.16,330.33
-2026-10-31,HPD,PLUMBING,153,105,3,40,67,116.17,435.15
+2026-10-31,HPD,PLUMBING,153,107,3,40,67,117.32,442.59
 2026-10-31,HPD,SAFETY,27,18,3,5,10,154.46,333.76
-2026-10-31,HPD,UNSANITARY CONDITION,251,162,5,19,91,158.0,391.19
+2026-10-31,HPD,UNSANITARY CONDITION,251,163,5,19,91,158.0,408.93
 2026-10-31,HPD,WATER LEAK,102,69,2,10,39,132.84,397.85
 2026-10-31,NYPD,Abandoned Vehicle,123,123,123,123,123,1.81,7.89
 2026-10-31,NYPD,Animal-Abuse,24,24,23,24,24,3.22,11.38
